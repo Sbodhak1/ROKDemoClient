@@ -1,0 +1,1991 @@
+Name: ns=45;Pages
+Id: ns=45;g=f7703567254e02e6aeb54c1071409440
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"Pages"}
+Children:
+- Name: Overview
+  Id: ns=45;g=c25f9c67684806cdf38807bc351df8ad
+  Supertype: BasePage
+  DisplayName: {"LocaleId":"","Text":"Overview"}
+  ReferenceType: HasComponent
+  Children:
+  - Name: Background
+    Id: ns=45;g=8d98e18a23981789f87df0cacf51213d
+    Type: Image
+    DisplayName: {"LocaleId":"","Text":"Background"}
+    Children:
+    - Name: Path
+      Id: ns=45;g=c55a147290438767b6da8259e21bca75
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      DisplayName: {"LocaleId":"","Text":"Path"}
+      Value: "ns=45;%PROJECTDIR%/Images/Overview1920.jpg"
+  - Name: ns=45;TransparentButton1
+    Id: ns=45;g=5630feca8256317601eae1909b143724
+    Type: TransparentButton
+    DisplayName: {"LocaleId":"","Text":"TransparentButton1"}
+    Children:
+    - Name: LeftMargin
+      Id: ns=45;g=9a773dd9d14f3948d483cba1780813b6
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"LeftMargin"}
+      ModellingRule: Optional
+      Value: 620.0
+    - Name: TopMargin
+      Id: ns=45;g=e891fcd48793de862c3c038cf36637f5
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"TopMargin"}
+      ModellingRule: Optional
+      Value: 220.0
+    - Name: Width
+      Id: ns=45;g=b9c4b69fc07892899808086bc8ac3a8f
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"Width"}
+      ModellingRule: Optional
+      Value: 150.0
+    - Name: Height
+      Id: ns=45;g=aaf406b411fa5595df83f3a29b8fa41e
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"Height"}
+      ModellingRule: Optional
+      Value: 110.0
+    - Name: ns=45;MouseClickEventHandler1
+      Id: ns=45;g=c763144e097bf122a3d14fbdfd68bce2
+      Type: EventHandler
+      DisplayName: {"LocaleId":"","Text":"MouseClickEventHandler1"}
+      Children:
+      - Name: ListenEventType
+        Id: ns=45;g=bf717ff35d6bbc150f184245434c5870
+        Type: PropertyType
+        DataType: NodeId
+        DisplayName: {"LocaleId":"","Text":"ListenEventType"}
+        Value: {"Id":16,"Namespace":22}
+      - Name: MethodsToCall
+        Id: ns=45;g=1ee8d397389eb54d560832ab66849322
+        Type: BaseObjectType
+        DisplayName: {"LocaleId":"","Text":"MethodsToCall"}
+        Children:
+        - Name: ns=45;MethodContainer1
+          Id: ns=45;g=998d5ca471a4c3e714ad9ea461430b05
+          Type: BaseObjectType
+          DisplayName: {"LocaleId":"","Text":"MethodContainer1"}
+          Children:
+          - Name: ns=20;ObjectPointer
+            Id: ns=45;g=ac4e887ee4aea7bc3d3914c424013b0b
+            Type: NodePointer
+            DataType: NodeId
+            DisplayName: {"LocaleId":"","Text":"ObjectPointer"}
+            Value: {"Id":121,"Namespace":22}
+            Children:
+            - Name: Kind
+              Id: ns=45;g=56efb35cff75772e912afe26d2041753
+              Type: PropertyType
+              DataType: NodeId
+              DisplayName: {"LocaleId":"","Text":"Kind"}
+              Value: {"Id":58}
+          - Name: ns=20;Method
+            Id: ns=45;g=dfdb419c5846e81f6c1ac509b155a83c
+            Type: BaseDataVariableType
+            DataType: String
+            DisplayName: {"LocaleId":"","Text":"Method"}
+            Value: "OpenDialog"
+          - Name: ns=45;InputArguments
+            Id: ns=45;g=3081940067e17082b6bf9e4efcf5a6d3
+            Type: BaseObjectType
+            DisplayName: {"LocaleId":"","Text":"InputArguments"}
+            Children:
+            - Name: ns=45;Dialog
+              Id: ns=45;g=6752ed57b6b5814d073d94251928b699
+              Type: BaseDataVariableType
+              DataType: NodeId
+              DisplayName: {"LocaleId":"","Text":"Dialog"}
+              Description: {"LocaleId":"en-US","Text":"Dialog window to be opened"}
+              Value: {"IdType":2,"Id":"eca59f0bcee3f22d4c4584875e487bf8","Namespace":45}
+            - Name: ns=45;AliasNode
+              Id: ns=45;g=9dd347727544759fec6420c95a0f997e
+              Type: BaseDataVariableType
+              DataType: NodeId
+              DisplayName: {"LocaleId":"","Text":"AliasNode"}
+              Description: {"LocaleId":"en-US","Text":"Makes it possible to set an alias node on the open dialog window"}
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: ns=45;ParentItem
+              Id: ns=45;g=43bdf6c4e628d82697218d801e0334db
+              Type: BaseDataVariableType
+              DataType: NodeId
+              DisplayName: {"LocaleId":"","Text":"ParentItem"}
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+          - Name: ns=45;OutputArguments
+            Id: ns=45;g=519eb16719301c014684b0be7e482c0c
+            Type: BaseObjectType
+            DisplayName: {"LocaleId":"","Text":"OutputArguments"}
+            Children:
+            - Name: ns=45;DialogNodeId
+              Id: ns=45;g=ce78ea821ab85f430d131c7f9fd5c061
+              Type: BaseDataVariableType
+              DataType: NodeId
+              DisplayName: {"LocaleId":"","Text":"DialogNodeId"}
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: ns=45;EventArguments
+        Id: ns=45;g=c3f7ce29dff4051d437210cb2a66b14f
+        Type: MouseClickEvent
+        DisplayName: {"LocaleId":"","Text":"EventArguments"}
+        Children:
+        - Name: EventId
+          Id: ns=45;g=9663271804eb129eeb5b3c14962cb14b
+          Type: PropertyType
+          DataType: ByteString
+          DisplayName: {"LocaleId":"","Text":"EventId"}
+          Value: ""
+        - Name: EventType
+          Id: ns=45;g=db50d3654d586cf4d621ff95964ab77c
+          Type: PropertyType
+          DataType: NodeId
+          DisplayName: {"LocaleId":"","Text":"EventType"}
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Name: SourceNode
+          Id: ns=45;g=5466e079e07b6645140db8c449b5df9d
+          Type: PropertyType
+          DataType: NodeId
+          DisplayName: {"LocaleId":"","Text":"SourceNode"}
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Name: SourceName
+          Id: ns=45;g=9f959655cc8e592048c1b8b85b5c32ff
+          Type: PropertyType
+          DataType: String
+          DisplayName: {"LocaleId":"","Text":"SourceName"}
+          Value: ""
+        - Name: Time
+          Id: ns=45;g=4b7fe863fc144e0fa73094428f7a4248
+          Type: PropertyType
+          DataType: UtcTime
+          DisplayName: {"LocaleId":"","Text":"Time"}
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: ReceiveTime
+          Id: ns=45;g=8ce657e87622327411083330afdd83a0
+          Type: PropertyType
+          DataType: UtcTime
+          DisplayName: {"LocaleId":"","Text":"ReceiveTime"}
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: Message
+          Id: ns=45;g=2fe97f5d530ceb5f15ea35bd1f95c8ac
+          Type: PropertyType
+          DataType: LocalizedText
+          DisplayName: {"LocaleId":"","Text":"Message"}
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Severity
+          Id: ns=45;g=c63763756dc8d54de254a282c1938ed7
+          Type: PropertyType
+          DataType: UInt16
+          DisplayName: {"LocaleId":"","Text":"Severity"}
+          Value: 0
+  - Name: ns=45;TankLevel
+    Id: ns=45;g=247a794b916b05ae3120982c07f20cd9
+    Type: AnalogItem
+    DisplayName: {"LocaleId":"","Text":"TankLevel"}
+    Children:
+    - Name: InputVariable
+      Id: ns=45;g=591ad89e86e5c3d9af0d25de1b678849
+      Type: Alias
+      DataType: NodeId
+      DisplayName: {"LocaleId":"","Text":"InputVariable"}
+      Value: {"IdType":2,"Id":"eeceebd1da66055705167cbb63963e75","Namespace":45}
+      Children:
+      - Name: Kind
+        Id: ns=45;g=abf0b1fb597d87377d0d0980f31c0d27
+        Type: PropertyType
+        DataType: NodeId
+        DisplayName: {"LocaleId":"","Text":"Kind"}
+        Value: {"Id":2368}
+    - Name: VariableName
+      Id: ns=45;g=a02c7562e790af4cdd311ed51a041eed
+      Type: Label
+      DisplayName: {"LocaleId":"","Text":"VariableName"}
+      Children:
+      - Name: Text
+        Id: ns=45;g=897168983e631a336af53cd017c699f9
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        DisplayName: {"LocaleId":"","Text":"Text"}
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Background
+      Id: ns=45;g=89a1ceb9366138db0c44b6e11a9e6ee9
+      Type: Rectangle
+      DisplayName: {"LocaleId":"","Text":"Background"}
+      Children:
+      - Name: VariableValue
+        Id: ns=45;g=0fcfd5139693451b12cf2007d5ae3108
+        Type: Label
+        DisplayName: {"LocaleId":"","Text":"VariableValue"}
+        Children:
+        - Name: Text
+          Id: ns=45;g=88ff91467600ca3d6c3c79f984a52e4b
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          DisplayName: {"LocaleId":"","Text":"Text"}
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: AnalogItem1
+          Id: ns=45;g=bc1969df7fd971cb52c4d34fa6e30a30
+          Type: AnalogItemType
+          DataType: Float
+          DisplayName: {"LocaleId":"","Text":"AnalogItem1"}
+          Value: 0.0
+          Children:
+          - Name: EURange
+            Id: ns=45;g=d2753032ca76180b243347f31988b8b0
+            Type: RangeType
+            DataType: EURange
+            DisplayName: {"LocaleId":"","Text":"EURange"}
+            Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+            Children:
+            - Name: Low
+              Id: ns=45;g=4716476dab909880f5d485952245598d
+              Type: BaseVariableType
+              DataType: Double
+              DisplayName: {"LocaleId":"","Text":"Low"}
+              ReferenceType: HasProperty
+              Value: 0.0
+            - Name: High
+              Id: ns=45;g=7460e82d69d3b2503964ec4afecbdabb
+              Type: BaseVariableType
+              DataType: Double
+              DisplayName: {"LocaleId":"","Text":"High"}
+              ReferenceType: HasProperty
+              Value: 0.0
+          - Name: EngineeringUnits
+            Id: ns=45;g=e3b87443f63ba18c4ab7fd4e5c06d514
+            Type: EUInformationType
+            DataType: EUInformation
+            DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
+            Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+            Children:
+            - Name: UnitId
+              Id: ns=45;g=f4821e2057f1b1318137bdf664d9ab64
+              Type: BaseVariableType
+              DataType: Int32
+              DisplayName: {"LocaleId":"","Text":"UnitId"}
+              ReferenceType: HasProperty
+              Value: -1
+            - Name: DisplayName
+              Id: ns=45;g=723cdefcff1a8254bf82f762b06057dc
+              Type: BaseVariableType
+              DataType: LocalizedText
+              DisplayName: {"LocaleId":"","Text":"DisplayName"}
+              ReferenceType: HasProperty
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            - Name: Description
+              Id: ns=45;g=03efaf9b2ed38e553d26900104c6b64b
+              Type: BaseVariableType
+              DataType: LocalizedText
+              DisplayName: {"LocaleId":"","Text":"Description"}
+              ReferenceType: HasProperty
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: LeftMargin
+      Id: ns=45;g=860fef9768ebc7f489053e97f4eefad2
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"LeftMargin"}
+      ModellingRule: Optional
+      Value: 380.0
+    - Name: TopMargin
+      Id: ns=45;g=2584b7a6fb2beb4b6e818a3ea2630758
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"TopMargin"}
+      ModellingRule: Optional
+      Value: 20.0
+  - Name: ns=45;TankFlow
+    Id: ns=45;g=34bd81c4c5c5051e54561191dcc29348
+    Type: AnalogItem
+    DisplayName: {"LocaleId":"","Text":"TankFlow"}
+    Children:
+    - Name: InputVariable
+      Id: ns=45;g=aca9ef0d40663f1feaba45a53786c2e2
+      Type: Alias
+      DataType: NodeId
+      DisplayName: {"LocaleId":"","Text":"InputVariable"}
+      Value: {"IdType":2,"Id":"6b915454a9129d8190b0d5f2088ac130","Namespace":45}
+      Children:
+      - Name: Kind
+        Id: ns=45;g=ad5e2d958ae69c5af2720a56b6b6f41d
+        Type: PropertyType
+        DataType: NodeId
+        DisplayName: {"LocaleId":"","Text":"Kind"}
+        Value: {"Id":2368}
+    - Name: VariableName
+      Id: ns=45;g=5fd315c4e4843e74bd7701974bb6833b
+      Type: Label
+      DisplayName: {"LocaleId":"","Text":"VariableName"}
+      Children:
+      - Name: Text
+        Id: ns=45;g=704d9b5719fd4335f22b8b3d6fc32301
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        DisplayName: {"LocaleId":"","Text":"Text"}
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Background
+      Id: ns=45;g=55d97521e22a37fe51dd95437d795a4d
+      Type: Rectangle
+      DisplayName: {"LocaleId":"","Text":"Background"}
+      Children:
+      - Name: VariableValue
+        Id: ns=45;g=a38082a35a4f9ca121ecae88878b52aa
+        Type: Label
+        DisplayName: {"LocaleId":"","Text":"VariableValue"}
+        Children:
+        - Name: Text
+          Id: ns=45;g=110942e1e284f04c54b2ce93a465599e
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          DisplayName: {"LocaleId":"","Text":"Text"}
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: AnalogItem1
+          Id: ns=45;g=86e0141f44be8e027da1c2f657788c9e
+          Type: AnalogItemType
+          DataType: Float
+          DisplayName: {"LocaleId":"","Text":"AnalogItem1"}
+          Value: 0.0
+          Children:
+          - Name: EURange
+            Id: ns=45;g=668369f2069313deb78ee0bffcc9aef2
+            Type: RangeType
+            DataType: EURange
+            DisplayName: {"LocaleId":"","Text":"EURange"}
+            Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+            Children:
+            - Name: Low
+              Id: ns=45;g=4bfc897eb9e33fc7f62840755d196577
+              Type: BaseVariableType
+              DataType: Double
+              DisplayName: {"LocaleId":"","Text":"Low"}
+              ReferenceType: HasProperty
+              Value: 0.0
+            - Name: High
+              Id: ns=45;g=44eda5050a01a5a9b2beceaaba384791
+              Type: BaseVariableType
+              DataType: Double
+              DisplayName: {"LocaleId":"","Text":"High"}
+              ReferenceType: HasProperty
+              Value: 0.0
+          - Name: EngineeringUnits
+            Id: ns=45;g=03f0ac2eca2955bb784a3fe235bd19d8
+            Type: EUInformationType
+            DataType: EUInformation
+            DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
+            Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+            Children:
+            - Name: UnitId
+              Id: ns=45;g=62af573033be72e3b32c2753531eb48b
+              Type: BaseVariableType
+              DataType: Int32
+              DisplayName: {"LocaleId":"","Text":"UnitId"}
+              ReferenceType: HasProperty
+              Value: -1
+            - Name: DisplayName
+              Id: ns=45;g=361bc2108bf69d7de916da742dae8a97
+              Type: BaseVariableType
+              DataType: LocalizedText
+              DisplayName: {"LocaleId":"","Text":"DisplayName"}
+              ReferenceType: HasProperty
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            - Name: Description
+              Id: ns=45;g=28173a1d84b49d4b6623ce1cc9b9299c
+              Type: BaseVariableType
+              DataType: LocalizedText
+              DisplayName: {"LocaleId":"","Text":"Description"}
+              ReferenceType: HasProperty
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: LeftMargin
+      Id: ns=45;g=8d3ed68444ccbdff7894273c45a0fe59
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"LeftMargin"}
+      ModellingRule: Optional
+      Value: 550.0
+    - Name: TopMargin
+      Id: ns=45;g=4da19424b4e290686bf840e1af5923ef
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"TopMargin"}
+      ModellingRule: Optional
+      Value: 130.0
+  - Name: ns=45;TankTemperature
+    Id: ns=45;g=a81848a035ec014c13a697f1b97c65ca
+    Type: AnalogItem
+    DisplayName: {"LocaleId":"","Text":"TankTemperature"}
+    Children:
+    - Name: InputVariable
+      Id: ns=45;g=bfe6c67d9beac27b3cc725ed65ca94d8
+      Type: Alias
+      DataType: NodeId
+      DisplayName: {"LocaleId":"","Text":"InputVariable"}
+      Value: {"IdType":2,"Id":"449a09a6d7a109dd3e616c16379a2c6c","Namespace":45}
+      Children:
+      - Name: Kind
+        Id: ns=45;g=caec9e0bfb96fd57e72070a7c09b79e4
+        Type: PropertyType
+        DataType: NodeId
+        DisplayName: {"LocaleId":"","Text":"Kind"}
+        Value: {"Id":2368}
+    - Name: VariableName
+      Id: ns=45;g=271c94352c9f0ee19709e95176542de2
+      Type: Label
+      DisplayName: {"LocaleId":"","Text":"VariableName"}
+      Children:
+      - Name: Text
+        Id: ns=45;g=b2b88fdda1b034a1c218e089c0344c1c
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        DisplayName: {"LocaleId":"","Text":"Text"}
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Background
+      Id: ns=45;g=bc5a9abb8e101dc4c51dce5fa0c8d81a
+      Type: Rectangle
+      DisplayName: {"LocaleId":"","Text":"Background"}
+      Children:
+      - Name: VariableValue
+        Id: ns=45;g=4aa5537b38e09690e53f011f8a70f663
+        Type: Label
+        DisplayName: {"LocaleId":"","Text":"VariableValue"}
+        Children:
+        - Name: Text
+          Id: ns=45;g=c9fe72ddb0fd8432d860a32f0421bdd8
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          DisplayName: {"LocaleId":"","Text":"Text"}
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: AnalogItem1
+          Id: ns=45;g=5f5cfc882cafe54d8b1190f0f010204f
+          Type: AnalogItemType
+          DataType: Float
+          DisplayName: {"LocaleId":"","Text":"AnalogItem1"}
+          Value: 0.0
+          Children:
+          - Name: EURange
+            Id: ns=45;g=dd64ab27ac38d029fdffb5b555e78e2b
+            Type: RangeType
+            DataType: EURange
+            DisplayName: {"LocaleId":"","Text":"EURange"}
+            Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+            Children:
+            - Name: Low
+              Id: ns=45;g=b37e9a902f68449aa9319b1ad2a1afc9
+              Type: BaseVariableType
+              DataType: Double
+              DisplayName: {"LocaleId":"","Text":"Low"}
+              ReferenceType: HasProperty
+              Value: 0.0
+            - Name: High
+              Id: ns=45;g=c1a60d844ad92b4dd2182de9ed6806e4
+              Type: BaseVariableType
+              DataType: Double
+              DisplayName: {"LocaleId":"","Text":"High"}
+              ReferenceType: HasProperty
+              Value: 0.0
+          - Name: EngineeringUnits
+            Id: ns=45;g=66fe8423216a74f26a580a32655d8558
+            Type: EUInformationType
+            DataType: EUInformation
+            DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
+            Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+            Children:
+            - Name: UnitId
+              Id: ns=45;g=42fa75bdd8c95f23fcdaf4c388027049
+              Type: BaseVariableType
+              DataType: Int32
+              DisplayName: {"LocaleId":"","Text":"UnitId"}
+              ReferenceType: HasProperty
+              Value: -1
+            - Name: DisplayName
+              Id: ns=45;g=d21226bcdb2147f7d187cc5fa9b970c0
+              Type: BaseVariableType
+              DataType: LocalizedText
+              DisplayName: {"LocaleId":"","Text":"DisplayName"}
+              ReferenceType: HasProperty
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            - Name: Description
+              Id: ns=45;g=fe6894432f6036ceb634d3f792e1a7d4
+              Type: BaseVariableType
+              DataType: LocalizedText
+              DisplayName: {"LocaleId":"","Text":"Description"}
+              ReferenceType: HasProperty
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: LeftMargin
+      Id: ns=45;g=949bafc36ca60a55ee1410ce153a6eee
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"LeftMargin"}
+      ModellingRule: Optional
+      Value: 290.0
+    - Name: TopMargin
+      Id: ns=45;g=7b7ac36b01a3774e3a6e60d8283ca8fa
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"TopMargin"}
+      ModellingRule: Optional
+      Value: 495.0
+    - Name: VerticalAlignment
+      Id: ns=45;g=fcb184b0b372d894a07ee65a469232c8
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      DisplayName: {"LocaleId":"","Text":"VerticalAlignment"}
+      ModellingRule: Optional
+      Value: 1
+    - Name: BottomMargin
+      Id: ns=45;g=1528f2314473c0846f82b369a0fcd6ff
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"BottomMargin"}
+      ModellingRule: Optional
+      Value: 475.0
+  - Name: ns=45;SeparatorFlow
+    Id: ns=45;g=622bf29c51fa6028e29f6d1f7b45f152
+    Type: AnalogItem
+    DisplayName: {"LocaleId":"","Text":"SeparatorFlow"}
+    Children:
+    - Name: InputVariable
+      Id: ns=45;g=57df56b50267dc477dbd2f0348047bb6
+      Type: Alias
+      DataType: NodeId
+      DisplayName: {"LocaleId":"","Text":"InputVariable"}
+      Value: {"IdType":2,"Id":"9b3de5c3c6e17d9bd44fc2f865cbb2a6","Namespace":45}
+      Children:
+      - Name: Kind
+        Id: ns=45;g=615a06f1ad150ef48a8d084aee9d801e
+        Type: PropertyType
+        DataType: NodeId
+        DisplayName: {"LocaleId":"","Text":"Kind"}
+        Value: {"Id":2368}
+    - Name: VariableName
+      Id: ns=45;g=1aaf6556610ab75da266e67d8bccb6a6
+      Type: Label
+      DisplayName: {"LocaleId":"","Text":"VariableName"}
+      Children:
+      - Name: Text
+        Id: ns=45;g=c2d38f381eccc743e600485499315f93
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        DisplayName: {"LocaleId":"","Text":"Text"}
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Background
+      Id: ns=45;g=8e3e3f2a028234a7cbc4ade0c53a3402
+      Type: Rectangle
+      DisplayName: {"LocaleId":"","Text":"Background"}
+      Children:
+      - Name: VariableValue
+        Id: ns=45;g=45c1ee7e0e539c86aa2e180b71df6980
+        Type: Label
+        DisplayName: {"LocaleId":"","Text":"VariableValue"}
+        Children:
+        - Name: Text
+          Id: ns=45;g=b5c9f6872b717e5771c50d7bb5c311ac
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          DisplayName: {"LocaleId":"","Text":"Text"}
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: AnalogItem1
+          Id: ns=45;g=e63b018f13fbb4d1dbcbede752b1056f
+          Type: AnalogItemType
+          DataType: Float
+          DisplayName: {"LocaleId":"","Text":"AnalogItem1"}
+          Value: 0.0
+          Children:
+          - Name: EURange
+            Id: ns=45;g=c7f0e9fb6e6c8a587eb8f5ad0e94fe64
+            Type: RangeType
+            DataType: EURange
+            DisplayName: {"LocaleId":"","Text":"EURange"}
+            Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+            Children:
+            - Name: Low
+              Id: ns=45;g=353cfae60a2d02b44b9ca6e7fa30b177
+              Type: BaseVariableType
+              DataType: Double
+              DisplayName: {"LocaleId":"","Text":"Low"}
+              ReferenceType: HasProperty
+              Value: 0.0
+            - Name: High
+              Id: ns=45;g=398da2dfee2e50205e40d34800a70408
+              Type: BaseVariableType
+              DataType: Double
+              DisplayName: {"LocaleId":"","Text":"High"}
+              ReferenceType: HasProperty
+              Value: 0.0
+          - Name: EngineeringUnits
+            Id: ns=45;g=867ece7e2c177fe4e3e3e00b5238dcb7
+            Type: EUInformationType
+            DataType: EUInformation
+            DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
+            Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+            Children:
+            - Name: UnitId
+              Id: ns=45;g=99b650a793730dd9c1398a17ab8b406c
+              Type: BaseVariableType
+              DataType: Int32
+              DisplayName: {"LocaleId":"","Text":"UnitId"}
+              ReferenceType: HasProperty
+              Value: -1
+            - Name: DisplayName
+              Id: ns=45;g=d18006047e20e3b609c19a099073199e
+              Type: BaseVariableType
+              DataType: LocalizedText
+              DisplayName: {"LocaleId":"","Text":"DisplayName"}
+              ReferenceType: HasProperty
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            - Name: Description
+              Id: ns=45;g=a0cb5ee4219fe13a0c5e31e55d2b1ccf
+              Type: BaseVariableType
+              DataType: LocalizedText
+              DisplayName: {"LocaleId":"","Text":"Description"}
+              ReferenceType: HasProperty
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: LeftMargin
+      Id: ns=45;g=ae6f005ad945b1d43fe3a50c6d18432e
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"LeftMargin"}
+      ModellingRule: Optional
+      Value: 750.0
+    - Name: TopMargin
+      Id: ns=45;g=82905fbbbb9ba11d942a6058bca7d01a
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"TopMargin"}
+      ModellingRule: Optional
+      Value: 360.0
+  - Name: ns=45;SeparatorPressure
+    Id: ns=45;g=42df0225f2f7fbbcc5e5058e3b378b4a
+    Type: AnalogItem
+    DisplayName: {"LocaleId":"","Text":"SeparatorPressure"}
+    Children:
+    - Name: InputVariable
+      Id: ns=45;g=eac52fabda93a272b4aff6d953ea9b2b
+      Type: Alias
+      DataType: NodeId
+      DisplayName: {"LocaleId":"","Text":"InputVariable"}
+      Value: {"IdType":2,"Id":"465377fd26080799e2b2c8f56aaafc42","Namespace":45}
+      Children:
+      - Name: Kind
+        Id: ns=45;g=0f343c7cab734ef7cbb508d13c0176b0
+        Type: PropertyType
+        DataType: NodeId
+        DisplayName: {"LocaleId":"","Text":"Kind"}
+        Value: {"Id":2368}
+    - Name: VariableName
+      Id: ns=45;g=36cc0b34079ce27f260caea6b92a61c2
+      Type: Label
+      DisplayName: {"LocaleId":"","Text":"VariableName"}
+      Children:
+      - Name: Text
+        Id: ns=45;g=4fe6fb3bf74d9795eed58aa9b53f31f8
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        DisplayName: {"LocaleId":"","Text":"Text"}
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Background
+      Id: ns=45;g=e67b1e37f094c9d5cf82849ccdd95e71
+      Type: Rectangle
+      DisplayName: {"LocaleId":"","Text":"Background"}
+      Children:
+      - Name: VariableValue
+        Id: ns=45;g=4f7367457b93ed2711d5859128b9388f
+        Type: Label
+        DisplayName: {"LocaleId":"","Text":"VariableValue"}
+        Children:
+        - Name: Text
+          Id: ns=45;g=9b1789a002245e2174e700d353cf855c
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          DisplayName: {"LocaleId":"","Text":"Text"}
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: AnalogItem1
+          Id: ns=45;g=5c874c3b8cc992070598b14d4b8f57f3
+          Type: AnalogItemType
+          DataType: Float
+          DisplayName: {"LocaleId":"","Text":"AnalogItem1"}
+          Value: 0.0
+          Children:
+          - Name: EURange
+            Id: ns=45;g=aeb673e4e3c3b3900b0d79910b83d1df
+            Type: RangeType
+            DataType: EURange
+            DisplayName: {"LocaleId":"","Text":"EURange"}
+            Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+            Children:
+            - Name: Low
+              Id: ns=45;g=6b0e37c879758c9dc570720b89c0fe5e
+              Type: BaseVariableType
+              DataType: Double
+              DisplayName: {"LocaleId":"","Text":"Low"}
+              ReferenceType: HasProperty
+              Value: 0.0
+            - Name: High
+              Id: ns=45;g=73d9aff058edd4311468ef5f7f4c89ff
+              Type: BaseVariableType
+              DataType: Double
+              DisplayName: {"LocaleId":"","Text":"High"}
+              ReferenceType: HasProperty
+              Value: 0.0
+          - Name: EngineeringUnits
+            Id: ns=45;g=3618eab56219127f36e87d70b1504418
+            Type: EUInformationType
+            DataType: EUInformation
+            DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
+            Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+            Children:
+            - Name: UnitId
+              Id: ns=45;g=9aad0e13d16007e983c74b79594a6d8e
+              Type: BaseVariableType
+              DataType: Int32
+              DisplayName: {"LocaleId":"","Text":"UnitId"}
+              ReferenceType: HasProperty
+              Value: -1
+            - Name: DisplayName
+              Id: ns=45;g=fc406df048ec072b6cbd87f516eaa7b5
+              Type: BaseVariableType
+              DataType: LocalizedText
+              DisplayName: {"LocaleId":"","Text":"DisplayName"}
+              ReferenceType: HasProperty
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            - Name: Description
+              Id: ns=45;g=d1e3ec0bc092de25b068b0da3d83738a
+              Type: BaseVariableType
+              DataType: LocalizedText
+              DisplayName: {"LocaleId":"","Text":"Description"}
+              ReferenceType: HasProperty
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: LeftMargin
+      Id: ns=45;g=de4a9238edf75bd964bfc21dcecd3ccb
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"LeftMargin"}
+      ModellingRule: Optional
+      Value: 750.0
+    - Name: TopMargin
+      Id: ns=45;g=5458f93035ef8156983f9679a36d79d5
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"TopMargin"}
+      ModellingRule: Optional
+      Value: 425.0
+  - Name: ns=45;SeparatorMixerSpeed
+    Id: ns=45;g=a7ba26bdb1e1ff137655ca24ae9ed494
+    Type: AnalogItem
+    DisplayName: {"LocaleId":"","Text":"SeparatorMixerSpeed"}
+    Children:
+    - Name: InputVariable
+      Id: ns=45;g=3802c59c1a6ae61ba88ecc13c33ac274
+      Type: Alias
+      DataType: NodeId
+      DisplayName: {"LocaleId":"","Text":"InputVariable"}
+      Value: {"IdType":2,"Id":"afc0ff369b66b8b19b73f3bcb2f898d1","Namespace":45}
+      Children:
+      - Name: Kind
+        Id: ns=45;g=456d80d8fb0156e7a313ac9f6dca51f8
+        Type: PropertyType
+        DataType: NodeId
+        DisplayName: {"LocaleId":"","Text":"Kind"}
+        Value: {"Id":2368}
+    - Name: VariableName
+      Id: ns=45;g=ad54da1d9bb950b659c2c7493580f543
+      Type: Label
+      DisplayName: {"LocaleId":"","Text":"VariableName"}
+      Children:
+      - Name: Text
+        Id: ns=45;g=a20c2fe40284ab3dc26d5657cfedc3f0
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        DisplayName: {"LocaleId":"","Text":"Text"}
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Background
+      Id: ns=45;g=fd96959f55eaf153715bc276307e0f92
+      Type: Rectangle
+      DisplayName: {"LocaleId":"","Text":"Background"}
+      Children:
+      - Name: VariableValue
+        Id: ns=45;g=3cca5be7e57975788e1019bba9e0bb7a
+        Type: Label
+        DisplayName: {"LocaleId":"","Text":"VariableValue"}
+        Children:
+        - Name: Text
+          Id: ns=45;g=296d35d9bfe0f607ed660d72c8fe3df3
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          DisplayName: {"LocaleId":"","Text":"Text"}
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: AnalogItem1
+          Id: ns=45;g=f4e0425880526f7f4e6ffda01e3469dc
+          Type: AnalogItemType
+          DataType: Float
+          DisplayName: {"LocaleId":"","Text":"AnalogItem1"}
+          Value: 0.0
+          Children:
+          - Name: EURange
+            Id: ns=45;g=02dea8ac822d67558acf85032e13df5f
+            Type: RangeType
+            DataType: EURange
+            DisplayName: {"LocaleId":"","Text":"EURange"}
+            Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+            Children:
+            - Name: Low
+              Id: ns=45;g=f4f01190d743b5970d51eafae82c7db0
+              Type: BaseVariableType
+              DataType: Double
+              DisplayName: {"LocaleId":"","Text":"Low"}
+              ReferenceType: HasProperty
+              Value: 0.0
+            - Name: High
+              Id: ns=45;g=35da4e4a38053412281854c0e30cd076
+              Type: BaseVariableType
+              DataType: Double
+              DisplayName: {"LocaleId":"","Text":"High"}
+              ReferenceType: HasProperty
+              Value: 0.0
+          - Name: EngineeringUnits
+            Id: ns=45;g=c39257eaec9785b90dc86d63495477e7
+            Type: EUInformationType
+            DataType: EUInformation
+            DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
+            Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+            Children:
+            - Name: UnitId
+              Id: ns=45;g=cd43bb44c9bd65e04e76cc98c2c8403a
+              Type: BaseVariableType
+              DataType: Int32
+              DisplayName: {"LocaleId":"","Text":"UnitId"}
+              ReferenceType: HasProperty
+              Value: -1
+            - Name: DisplayName
+              Id: ns=45;g=faa0efd767b8e259f19dee04a0788fb1
+              Type: BaseVariableType
+              DataType: LocalizedText
+              DisplayName: {"LocaleId":"","Text":"DisplayName"}
+              ReferenceType: HasProperty
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            - Name: Description
+              Id: ns=45;g=be27d3ebfa917a5070ef4eacaedae602
+              Type: BaseVariableType
+              DataType: LocalizedText
+              DisplayName: {"LocaleId":"","Text":"Description"}
+              ReferenceType: HasProperty
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: LeftMargin
+      Id: ns=45;g=928d7f37350f7214258facd82e3a976e
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"LeftMargin"}
+      ModellingRule: Optional
+      Value: 850.0
+    - Name: VerticalAlignment
+      Id: ns=45;g=f4917e3d54fcd0688cdb9949e142cdac
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      DisplayName: {"LocaleId":"","Text":"VerticalAlignment"}
+      ModellingRule: Optional
+      Value: 1
+    - Name: BottomMargin
+      Id: ns=45;g=8baee0a8cbb25a9511f6bd0ae085dedb
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"BottomMargin"}
+      ModellingRule: Optional
+      Value: 230.0
+  - Name: ns=45;SeparatorMixerCurrent
+    Id: ns=45;g=26ab2e1d0363760a7bf1fc83aad17595
+    Type: AnalogItem
+    DisplayName: {"LocaleId":"","Text":"SeparatorMixerCurrent"}
+    Children:
+    - Name: InputVariable
+      Id: ns=45;g=8d647a5fd6715978169383f07dd876f4
+      Type: Alias
+      DataType: NodeId
+      DisplayName: {"LocaleId":"","Text":"InputVariable"}
+      Value: {"IdType":2,"Id":"784621451ecc5190b50fcac962139f9d","Namespace":45}
+      Children:
+      - Name: Kind
+        Id: ns=45;g=2bc39461cf0f6d233195a971636122a7
+        Type: PropertyType
+        DataType: NodeId
+        DisplayName: {"LocaleId":"","Text":"Kind"}
+        Value: {"Id":2368}
+    - Name: VariableName
+      Id: ns=45;g=0be4e2d3e1094656847e14afb220ed17
+      Type: Label
+      DisplayName: {"LocaleId":"","Text":"VariableName"}
+      Children:
+      - Name: Text
+        Id: ns=45;g=967d279d967cf0cafa6909a756cb8492
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        DisplayName: {"LocaleId":"","Text":"Text"}
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Background
+      Id: ns=45;g=29b7908d187a82880e9f6b4404a8a7e2
+      Type: Rectangle
+      DisplayName: {"LocaleId":"","Text":"Background"}
+      Children:
+      - Name: VariableValue
+        Id: ns=45;g=3b038e8cbd1a61455bdbc943c0c93215
+        Type: Label
+        DisplayName: {"LocaleId":"","Text":"VariableValue"}
+        Children:
+        - Name: Text
+          Id: ns=45;g=5f2d1d183e24bfa3945d4b2de674fa51
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          DisplayName: {"LocaleId":"","Text":"Text"}
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: AnalogItem1
+          Id: ns=45;g=e94c3dd0e34e1959c6e99459683062e6
+          Type: AnalogItemType
+          DataType: Float
+          DisplayName: {"LocaleId":"","Text":"AnalogItem1"}
+          Value: 0.0
+          Children:
+          - Name: EURange
+            Id: ns=45;g=a2722a3ea7efa7162a51437f5fee8b17
+            Type: RangeType
+            DataType: EURange
+            DisplayName: {"LocaleId":"","Text":"EURange"}
+            Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+            Children:
+            - Name: Low
+              Id: ns=45;g=62af1938cd37d691943ac0f18f4e2caf
+              Type: BaseVariableType
+              DataType: Double
+              DisplayName: {"LocaleId":"","Text":"Low"}
+              ReferenceType: HasProperty
+              Value: 0.0
+            - Name: High
+              Id: ns=45;g=212f8fb9dee616b6074211b1e94c7b29
+              Type: BaseVariableType
+              DataType: Double
+              DisplayName: {"LocaleId":"","Text":"High"}
+              ReferenceType: HasProperty
+              Value: 0.0
+          - Name: EngineeringUnits
+            Id: ns=45;g=50f2d240e7ccb46c98a770911c059b9a
+            Type: EUInformationType
+            DataType: EUInformation
+            DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
+            Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+            Children:
+            - Name: UnitId
+              Id: ns=45;g=1a38e2525430c60c12fba9059c9fe9d9
+              Type: BaseVariableType
+              DataType: Int32
+              DisplayName: {"LocaleId":"","Text":"UnitId"}
+              ReferenceType: HasProperty
+              Value: -1
+            - Name: DisplayName
+              Id: ns=45;g=638f42e6b09f6f0aceeb2cf8c8f69722
+              Type: BaseVariableType
+              DataType: LocalizedText
+              DisplayName: {"LocaleId":"","Text":"DisplayName"}
+              ReferenceType: HasProperty
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            - Name: Description
+              Id: ns=45;g=57c9b188f6cfd2d2b750725c9a3837c6
+              Type: BaseVariableType
+              DataType: LocalizedText
+              DisplayName: {"LocaleId":"","Text":"Description"}
+              ReferenceType: HasProperty
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: LeftMargin
+      Id: ns=45;g=b07293b6bc839189cab1a769c399b561
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"LeftMargin"}
+      ModellingRule: Optional
+      Value: 850.0
+    - Name: VerticalAlignment
+      Id: ns=45;g=5be34dd7e3372c069bf5f9263a9b2df8
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      DisplayName: {"LocaleId":"","Text":"VerticalAlignment"}
+      ModellingRule: Optional
+      Value: 1
+    - Name: BottomMargin
+      Id: ns=45;g=2b6321eb5bc9092c6c454b6e11cd6391
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"BottomMargin"}
+      ModellingRule: Optional
+      Value: 165.0
+  - Name: ns=45;SetpointIndicators
+    Id: ns=45;g=0afea7e0156167b3f9ff18f41abee4d3
+    Type: RowLayout
+    DisplayName: {"LocaleId":"","Text":"SetpointIndicators"}
+    Children:
+    - Name: Width
+      Id: ns=45;g=552d5ddf120dbde14949ab842d14ea2d
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"Width"}
+      ModellingRule: Optional
+      Value: 550.0
+    - Name: Height
+      Id: ns=45;g=a39d1daf403de9a45c8109a8bab2b537
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"Height"}
+      ModellingRule: Optional
+      Value: 260.0
+    - Name: HorizontalAlignment
+      Id: ns=45;g=1b76ea575b0cbe63534bda458ce92f6e
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      DisplayName: {"LocaleId":"","Text":"HorizontalAlignment"}
+      ModellingRule: Optional
+      Value: 0
+    - Name: VerticalAlignment
+      Id: ns=45;g=44a35285dbee6b40f0d50419f4048e20
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      DisplayName: {"LocaleId":"","Text":"VerticalAlignment"}
+      ModellingRule: Optional
+      Value: 1
+    - Name: BottomMargin
+      Id: ns=45;g=1cc3b9b10307c368a8b7febde910d025
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"BottomMargin"}
+      ModellingRule: Optional
+      Value: 20.0
+    - Name: LeftMargin
+      Id: ns=45;g=97b324320dc2698077829054e8862b28
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"LeftMargin"}
+      ModellingRule: Optional
+      Value: 20.0
+    - Name: ns=45;FI101
+      Id: ns=45;g=32583d3d61ae5ce65ed5b9792512e59e
+      Type: SetpointIndicator
+      DisplayName: {"LocaleId":"","Text":"FI101"}
+      Children:
+      - Name: Height
+        Id: ns=45;g=acd9abc0bffd0ab0fd42932125b8de68
+        Type: BaseVariableType
+        DataType: Size
+        DisplayName: {"LocaleId":"","Text":"Height"}
+        Value: 260.0
+      - Name: ArrowArea
+        Id: ns=45;g=fb4787f6c8ef16fdb79b583a03070ac6
+        Type: Panel
+        DisplayName: {"LocaleId":"","Text":"ArrowArea"}
+        Children:
+        - Name: Arrow
+          Id: ns=45;g=fe9ef0679ee72ede3079cb1a50943ba8
+          Type: PolyLine
+          DisplayName: {"LocaleId":"","Text":"Arrow"}
+          Children:
+          - Name: BottomMargin
+            Id: ns=45;g=893045be1c444e7622123441045f24b3
+            Type: BaseVariableType
+            DataType: Size
+            DisplayName: {"LocaleId":"","Text":"BottomMargin"}
+            Value: 0.0
+        - Name: Range
+          Id: ns=45;g=83ff333e0e82dd2798dce9b14c4782cd
+          Type: Rectangle
+          DisplayName: {"LocaleId":"","Text":"Range"}
+          Children:
+          - Name: HighLimit
+            Id: ns=45;g=85c4bd5e2fa073cf6ba812fb43dea75c
+            Type: Rectangle
+            DisplayName: {"LocaleId":"","Text":"HighLimit"}
+            Children:
+            - Name: BottomMargin
+              Id: ns=45;g=aa2a836600fe602f5edb2a23b2418629
+              Type: BaseVariableType
+              DataType: Size
+              DisplayName: {"LocaleId":"","Text":"BottomMargin"}
+              Value: 170.0
+          - Name: LowLimit
+            Id: ns=45;g=bb40cda317114bb62def20183f51e97d
+            Type: Rectangle
+            DisplayName: {"LocaleId":"","Text":"LowLimit"}
+            Children:
+            - Name: Height
+              Id: ns=45;g=b4f9c359e6d56f734052e1003a6de5e4
+              Type: BaseVariableType
+              DataType: Size
+              DisplayName: {"LocaleId":"","Text":"Height"}
+              Value: 30.0
+      - Name: AnalogVariablePointer
+        Id: ns=45;g=4658d4154e9f37f0891ce9ba3e95a967
+        Type: Alias
+        DataType: NodeId
+        DisplayName: {"LocaleId":"","Text":"AnalogVariablePointer"}
+        Value: {"IdType":2,"Id":"6b915454a9129d8190b0d5f2088ac130","Namespace":45}
+        Children:
+        - Name: Kind
+          Id: ns=45;g=260ebae3647e72066726f858a3f8bf5b
+          Type: PropertyType
+          DataType: NodeId
+          DisplayName: {"LocaleId":"","Text":"Kind"}
+          Value: {"Id":2368}
+      - Name: ItemDetails
+        Id: ns=45;g=a361abab418b0ae1102bc3cf7def0cb2
+        Type: Rectangle
+        DisplayName: {"LocaleId":"","Text":"ItemDetails"}
+        Children:
+        - Name: ItemName
+          Id: ns=45;g=4d30be0509a787d942dca92cc14abc7c
+          Type: Label
+          DisplayName: {"LocaleId":"","Text":"ItemName"}
+          Children:
+          - Name: Text
+            Id: ns=45;g=cb4418769af458ada85947280f3017b9
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            DisplayName: {"LocaleId":"","Text":"Text"}
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: HighAlarm
+        Id: ns=45;g=a1da8600db471a2a8bcb9063583e9a2c
+        Type: BaseDataVariableType
+        DataType: Int32
+        DisplayName: {"LocaleId":"","Text":"HighAlarm"}
+        Value: 170
+      - Name: LowAlarm
+        Id: ns=45;g=8b060d89d88c03dd881df4409749e9c3
+        Type: BaseDataVariableType
+        DataType: Int32
+        DisplayName: {"LocaleId":"","Text":"LowAlarm"}
+        Value: 30
+    - Name: ns=45;TI101
+      Id: ns=45;g=fb5d3bb4442aab309518159fc95a32cf
+      Type: SetpointIndicator
+      DisplayName: {"LocaleId":"","Text":"TI101"}
+      Children:
+      - Name: Height
+        Id: ns=45;g=cfe45f6247ceffa05c1cb651148dc192
+        Type: BaseVariableType
+        DataType: Size
+        DisplayName: {"LocaleId":"","Text":"Height"}
+        Value: 260.0
+      - Name: ArrowArea
+        Id: ns=45;g=c18370ad1e67c11bd10c38bc1681542c
+        Type: Panel
+        DisplayName: {"LocaleId":"","Text":"ArrowArea"}
+        Children:
+        - Name: Arrow
+          Id: ns=45;g=9c7b08acf6b97f904f16a977c552f88b
+          Type: PolyLine
+          DisplayName: {"LocaleId":"","Text":"Arrow"}
+          Children:
+          - Name: BottomMargin
+            Id: ns=45;g=cc2373d2617e2720c09209e580dac66c
+            Type: BaseVariableType
+            DataType: Size
+            DisplayName: {"LocaleId":"","Text":"BottomMargin"}
+            Value: 0.0
+        - Name: Range
+          Id: ns=45;g=fbb3bdea7e54958b42e6e1470289e4e9
+          Type: Rectangle
+          DisplayName: {"LocaleId":"","Text":"Range"}
+          Children:
+          - Name: HighLimit
+            Id: ns=45;g=7c58923d390baee8eaf617b7ce73007b
+            Type: Rectangle
+            DisplayName: {"LocaleId":"","Text":"HighLimit"}
+            Children:
+            - Name: BottomMargin
+              Id: ns=45;g=747597d3e81a58d590dd59e24fa58e54
+              Type: BaseVariableType
+              DataType: Size
+              DisplayName: {"LocaleId":"","Text":"BottomMargin"}
+              Value: 170.0
+          - Name: LowLimit
+            Id: ns=45;g=e8544e99402d4aab4a4db1a2da3e0663
+            Type: Rectangle
+            DisplayName: {"LocaleId":"","Text":"LowLimit"}
+            Children:
+            - Name: Height
+              Id: ns=45;g=93e03473b7d6d9522f2e7dd868d3dd2f
+              Type: BaseVariableType
+              DataType: Size
+              DisplayName: {"LocaleId":"","Text":"Height"}
+              Value: 30.0
+      - Name: AnalogVariablePointer
+        Id: ns=45;g=c6463f6470e9632fb4a915fc99dde806
+        Type: Alias
+        DataType: NodeId
+        DisplayName: {"LocaleId":"","Text":"AnalogVariablePointer"}
+        Value: {"IdType":2,"Id":"449a09a6d7a109dd3e616c16379a2c6c","Namespace":45}
+        Children:
+        - Name: Kind
+          Id: ns=45;g=ec9a6d171df617668c37171c6e3e235b
+          Type: PropertyType
+          DataType: NodeId
+          DisplayName: {"LocaleId":"","Text":"Kind"}
+          Value: {"Id":2368}
+      - Name: ItemDetails
+        Id: ns=45;g=161818d8954b09bd6040dbb998012207
+        Type: Rectangle
+        DisplayName: {"LocaleId":"","Text":"ItemDetails"}
+        Children:
+        - Name: ItemName
+          Id: ns=45;g=8e64e168888cc2554aa53774210e6cac
+          Type: Label
+          DisplayName: {"LocaleId":"","Text":"ItemName"}
+          Children:
+          - Name: Text
+            Id: ns=45;g=4ee006d257eac063fb15de6839db3146
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            DisplayName: {"LocaleId":"","Text":"Text"}
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: HighAlarm
+        Id: ns=45;g=075499f1f081bd103cef553160e21437
+        Type: BaseDataVariableType
+        DataType: Int32
+        DisplayName: {"LocaleId":"","Text":"HighAlarm"}
+        Value: 170
+      - Name: LowAlarm
+        Id: ns=45;g=ad22fbd2e9541b0443cf4e733e53cc81
+        Type: BaseDataVariableType
+        DataType: Int32
+        DisplayName: {"LocaleId":"","Text":"LowAlarm"}
+        Value: 30
+      - Name: LeftMargin
+        Id: ns=45;g=f90794f5c34acc823bd33cfc482c710e
+        Type: BaseVariableType
+        DataType: Size
+        DisplayName: {"LocaleId":"","Text":"LeftMargin"}
+        ModellingRule: Optional
+        Value: 10.0
+    - Name: ns=45;LI101
+      Id: ns=45;g=73e6bdfae367d087310916edaaea6291
+      Type: SetpointIndicator
+      DisplayName: {"LocaleId":"","Text":"LI101"}
+      Children:
+      - Name: Height
+        Id: ns=45;g=14b1fdc4b7c0e0d974a6b09fdf3dce62
+        Type: BaseVariableType
+        DataType: Size
+        DisplayName: {"LocaleId":"","Text":"Height"}
+        Value: 260.0
+      - Name: ArrowArea
+        Id: ns=45;g=aade3353d011c98213faf55a471f33de
+        Type: Panel
+        DisplayName: {"LocaleId":"","Text":"ArrowArea"}
+        Children:
+        - Name: Arrow
+          Id: ns=45;g=e5571c61d4755e99ff940c6371098589
+          Type: PolyLine
+          DisplayName: {"LocaleId":"","Text":"Arrow"}
+          Children:
+          - Name: BottomMargin
+            Id: ns=45;g=4aa108e31a54362050acf2c23bb945fd
+            Type: BaseVariableType
+            DataType: Size
+            DisplayName: {"LocaleId":"","Text":"BottomMargin"}
+            Value: 0.0
+        - Name: Range
+          Id: ns=45;g=9176e2c85bf387cb5454b5fe7ef72834
+          Type: Rectangle
+          DisplayName: {"LocaleId":"","Text":"Range"}
+          Children:
+          - Name: HighLimit
+            Id: ns=45;g=1b33c2edf2ad8adc2f57a387d9df21c8
+            Type: Rectangle
+            DisplayName: {"LocaleId":"","Text":"HighLimit"}
+            Children:
+            - Name: BottomMargin
+              Id: ns=45;g=2057b6ee51219a0240caea98abe18095
+              Type: BaseVariableType
+              DataType: Size
+              DisplayName: {"LocaleId":"","Text":"BottomMargin"}
+              Value: 170.0
+          - Name: LowLimit
+            Id: ns=45;g=53fc35c1b94954065e1aaa4ffccf06d1
+            Type: Rectangle
+            DisplayName: {"LocaleId":"","Text":"LowLimit"}
+            Children:
+            - Name: Height
+              Id: ns=45;g=6e0e6972f65c739f9f47ab4ae46d8851
+              Type: BaseVariableType
+              DataType: Size
+              DisplayName: {"LocaleId":"","Text":"Height"}
+              Value: 30.0
+      - Name: AnalogVariablePointer
+        Id: ns=45;g=045af8cea674cb1edca52a03fa064f58
+        Type: Alias
+        DataType: NodeId
+        DisplayName: {"LocaleId":"","Text":"AnalogVariablePointer"}
+        Value: {"IdType":2,"Id":"eeceebd1da66055705167cbb63963e75","Namespace":45}
+        Children:
+        - Name: Kind
+          Id: ns=45;g=a8ba31c37ac6ec371420503d73fbc7b9
+          Type: PropertyType
+          DataType: NodeId
+          DisplayName: {"LocaleId":"","Text":"Kind"}
+          Value: {"Id":2368}
+      - Name: ItemDetails
+        Id: ns=45;g=f8f738b7e448e1a3cc415551162d725b
+        Type: Rectangle
+        DisplayName: {"LocaleId":"","Text":"ItemDetails"}
+        Children:
+        - Name: ItemName
+          Id: ns=45;g=c68d9179d2859be2869b034b75d5407d
+          Type: Label
+          DisplayName: {"LocaleId":"","Text":"ItemName"}
+          Children:
+          - Name: Text
+            Id: ns=45;g=616f5390530f2ff7f39839ff18c5f195
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            DisplayName: {"LocaleId":"","Text":"Text"}
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: HighAlarm
+        Id: ns=45;g=9155f60be592a1780b5417bc57017b9e
+        Type: BaseDataVariableType
+        DataType: Int32
+        DisplayName: {"LocaleId":"","Text":"HighAlarm"}
+        Value: 170
+      - Name: LowAlarm
+        Id: ns=45;g=22577c27a4d0963023cd15a2f2041d9e
+        Type: BaseDataVariableType
+        DataType: Int32
+        DisplayName: {"LocaleId":"","Text":"LowAlarm"}
+        Value: 30
+      - Name: LeftMargin
+        Id: ns=45;g=a2e890d097abf8579d21db9c51bddcd5
+        Type: BaseVariableType
+        DataType: Size
+        DisplayName: {"LocaleId":"","Text":"LeftMargin"}
+        ModellingRule: Optional
+        Value: 10.0
+    - Name: ns=45;FI102
+      Id: ns=45;g=1144a4c0dfea998a05341689e95ffd75
+      Type: SetpointIndicator
+      DisplayName: {"LocaleId":"","Text":"FI102"}
+      Children:
+      - Name: Height
+        Id: ns=45;g=db1d5a95fe88f7b9bdc5e875379f9d94
+        Type: BaseVariableType
+        DataType: Size
+        DisplayName: {"LocaleId":"","Text":"Height"}
+        Value: 260.0
+      - Name: ArrowArea
+        Id: ns=45;g=29b892b70573528c32d8bf053c55ba42
+        Type: Panel
+        DisplayName: {"LocaleId":"","Text":"ArrowArea"}
+        Children:
+        - Name: Arrow
+          Id: ns=45;g=6c49bbc8cf279957607159bce95a0685
+          Type: PolyLine
+          DisplayName: {"LocaleId":"","Text":"Arrow"}
+          Children:
+          - Name: BottomMargin
+            Id: ns=45;g=c30ae9b661778950d3799fe1b5e18e5f
+            Type: BaseVariableType
+            DataType: Size
+            DisplayName: {"LocaleId":"","Text":"BottomMargin"}
+            Value: 0.0
+        - Name: Range
+          Id: ns=45;g=a8eb0ef091dcf162fd4f3dc2afdd3f9f
+          Type: Rectangle
+          DisplayName: {"LocaleId":"","Text":"Range"}
+          Children:
+          - Name: HighLimit
+            Id: ns=45;g=e9bfc6314e2c3738bcf45fb853087f43
+            Type: Rectangle
+            DisplayName: {"LocaleId":"","Text":"HighLimit"}
+            Children:
+            - Name: BottomMargin
+              Id: ns=45;g=6ddd094947894834fcdbfaead7c1fdd7
+              Type: BaseVariableType
+              DataType: Size
+              DisplayName: {"LocaleId":"","Text":"BottomMargin"}
+              Value: 170.0
+          - Name: LowLimit
+            Id: ns=45;g=bf388ecfb1787a51d9312a175feafccc
+            Type: Rectangle
+            DisplayName: {"LocaleId":"","Text":"LowLimit"}
+            Children:
+            - Name: Height
+              Id: ns=45;g=3307de653326e988fb2ebe2ef8e2f777
+              Type: BaseVariableType
+              DataType: Size
+              DisplayName: {"LocaleId":"","Text":"Height"}
+              Value: 30.0
+      - Name: AnalogVariablePointer
+        Id: ns=45;g=d962f95071a48aabf1c296b61efd78ef
+        Type: Alias
+        DataType: NodeId
+        DisplayName: {"LocaleId":"","Text":"AnalogVariablePointer"}
+        Value: {"IdType":2,"Id":"9b3de5c3c6e17d9bd44fc2f865cbb2a6","Namespace":45}
+        Children:
+        - Name: Kind
+          Id: ns=45;g=f00bc83f866cab577fc1d29ba246d376
+          Type: PropertyType
+          DataType: NodeId
+          DisplayName: {"LocaleId":"","Text":"Kind"}
+          Value: {"Id":2368}
+      - Name: ItemDetails
+        Id: ns=45;g=bd0561c8ce4fabe439dc23b4da72d8c9
+        Type: Rectangle
+        DisplayName: {"LocaleId":"","Text":"ItemDetails"}
+        Children:
+        - Name: ItemName
+          Id: ns=45;g=b43e4282ebd97b036fc13c6c095f7ca4
+          Type: Label
+          DisplayName: {"LocaleId":"","Text":"ItemName"}
+          Children:
+          - Name: Text
+            Id: ns=45;g=3843769263a6d3e7168c91d70e25c879
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            DisplayName: {"LocaleId":"","Text":"Text"}
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: HighAlarm
+        Id: ns=45;g=85433eff00900e6201f4fd820975c2f6
+        Type: BaseDataVariableType
+        DataType: Int32
+        DisplayName: {"LocaleId":"","Text":"HighAlarm"}
+        Value: 170
+      - Name: LowAlarm
+        Id: ns=45;g=a7f6dd8b343864e70d1744e0d14f903b
+        Type: BaseDataVariableType
+        DataType: Int32
+        DisplayName: {"LocaleId":"","Text":"LowAlarm"}
+        Value: 30
+      - Name: LeftMargin
+        Id: ns=45;g=74ae6504edec830a7bb88f9048f892e2
+        Type: BaseVariableType
+        DataType: Size
+        DisplayName: {"LocaleId":"","Text":"LeftMargin"}
+        ModellingRule: Optional
+        Value: 10.0
+    - Name: ns=45;PI102
+      Id: ns=45;g=a3224bbfe40a254a8f4efe14148c2ca0
+      Type: SetpointIndicator
+      DisplayName: {"LocaleId":"","Text":"PI102"}
+      Children:
+      - Name: Height
+        Id: ns=45;g=2390db238578a952788625918bd26912
+        Type: BaseVariableType
+        DataType: Size
+        DisplayName: {"LocaleId":"","Text":"Height"}
+        Value: 260.0
+      - Name: ArrowArea
+        Id: ns=45;g=f9f49c5ba06c44236bb4aceb0ce602c3
+        Type: Panel
+        DisplayName: {"LocaleId":"","Text":"ArrowArea"}
+        Children:
+        - Name: Arrow
+          Id: ns=45;g=b87244e97304e35cd5a82c924ffb1b78
+          Type: PolyLine
+          DisplayName: {"LocaleId":"","Text":"Arrow"}
+          Children:
+          - Name: BottomMargin
+            Id: ns=45;g=963433a44ae396b03bb37c2221baf9fc
+            Type: BaseVariableType
+            DataType: Size
+            DisplayName: {"LocaleId":"","Text":"BottomMargin"}
+            Value: 0.0
+        - Name: Range
+          Id: ns=45;g=c436ec3cbc2713a0eb4dcd5ee48e1759
+          Type: Rectangle
+          DisplayName: {"LocaleId":"","Text":"Range"}
+          Children:
+          - Name: HighLimit
+            Id: ns=45;g=39138fa7032e94b709ee4d980a209d01
+            Type: Rectangle
+            DisplayName: {"LocaleId":"","Text":"HighLimit"}
+            Children:
+            - Name: BottomMargin
+              Id: ns=45;g=714f525a157619c3e25907ab804f21e1
+              Type: BaseVariableType
+              DataType: Size
+              DisplayName: {"LocaleId":"","Text":"BottomMargin"}
+              Value: 170.0
+          - Name: LowLimit
+            Id: ns=45;g=8d385eafed15165c0e9675d0dcecae14
+            Type: Rectangle
+            DisplayName: {"LocaleId":"","Text":"LowLimit"}
+            Children:
+            - Name: Height
+              Id: ns=45;g=b00ab4934fb190c1cb32f747555aa1c9
+              Type: BaseVariableType
+              DataType: Size
+              DisplayName: {"LocaleId":"","Text":"Height"}
+              Value: 30.0
+      - Name: AnalogVariablePointer
+        Id: ns=45;g=a832cc78e5fba247e2329a6c710609a3
+        Type: Alias
+        DataType: NodeId
+        DisplayName: {"LocaleId":"","Text":"AnalogVariablePointer"}
+        Value: {"IdType":2,"Id":"465377fd26080799e2b2c8f56aaafc42","Namespace":45}
+        Children:
+        - Name: Kind
+          Id: ns=45;g=95cf4dbfdaf5e1af86653699c5dbd0ef
+          Type: PropertyType
+          DataType: NodeId
+          DisplayName: {"LocaleId":"","Text":"Kind"}
+          Value: {"Id":2368}
+      - Name: ItemDetails
+        Id: ns=45;g=982575fd1fe3d70e158a16b496cf723a
+        Type: Rectangle
+        DisplayName: {"LocaleId":"","Text":"ItemDetails"}
+        Children:
+        - Name: ItemName
+          Id: ns=45;g=c846d73e6dab07210a4744c7fabedbaf
+          Type: Label
+          DisplayName: {"LocaleId":"","Text":"ItemName"}
+          Children:
+          - Name: Text
+            Id: ns=45;g=4bb79960db92dcc1630601e26f02dc88
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            DisplayName: {"LocaleId":"","Text":"Text"}
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: HighAlarm
+        Id: ns=45;g=b2e9eb0f2ac1911db6502aab1ec766ce
+        Type: BaseDataVariableType
+        DataType: Int32
+        DisplayName: {"LocaleId":"","Text":"HighAlarm"}
+        Value: 170
+      - Name: LowAlarm
+        Id: ns=45;g=8d7231c9b6dc2365b4ea01df29690e2e
+        Type: BaseDataVariableType
+        DataType: Int32
+        DisplayName: {"LocaleId":"","Text":"LowAlarm"}
+        Value: 30
+      - Name: LeftMargin
+        Id: ns=45;g=a5ee38c0680e429c95953fb70ae6efaa
+        Type: BaseVariableType
+        DataType: Size
+        DisplayName: {"LocaleId":"","Text":"LeftMargin"}
+        ModellingRule: Optional
+        Value: 10.0
+    - Name: ns=45;VI101
+      Id: ns=45;g=cd974edd6cf87ecd8e281d3885a088a9
+      Type: SetpointIndicator
+      DisplayName: {"LocaleId":"","Text":"VI101"}
+      Children:
+      - Name: Height
+        Id: ns=45;g=5f2ba1c1084d5f2d0b1cbb3c91bcc02d
+        Type: BaseVariableType
+        DataType: Size
+        DisplayName: {"LocaleId":"","Text":"Height"}
+        Value: 260.0
+      - Name: ArrowArea
+        Id: ns=45;g=ac69e744b27650e4fbf0f3b2e205764f
+        Type: Panel
+        DisplayName: {"LocaleId":"","Text":"ArrowArea"}
+        Children:
+        - Name: Arrow
+          Id: ns=45;g=257756e93f9c2d7aae9732a7be3b4e2e
+          Type: PolyLine
+          DisplayName: {"LocaleId":"","Text":"Arrow"}
+          Children:
+          - Name: BottomMargin
+            Id: ns=45;g=c5175515bcafe6cd7af4fa997b579a15
+            Type: BaseVariableType
+            DataType: Size
+            DisplayName: {"LocaleId":"","Text":"BottomMargin"}
+            Value: 0.0
+        - Name: Range
+          Id: ns=45;g=1ff9fcfa071d89730a4552eae61d4372
+          Type: Rectangle
+          DisplayName: {"LocaleId":"","Text":"Range"}
+          Children:
+          - Name: HighLimit
+            Id: ns=45;g=e63b0a5f4dad6b77e1aa62feea0b0de2
+            Type: Rectangle
+            DisplayName: {"LocaleId":"","Text":"HighLimit"}
+            Children:
+            - Name: BottomMargin
+              Id: ns=45;g=8bb99f3216a31f57af3c3235e81ff389
+              Type: BaseVariableType
+              DataType: Size
+              DisplayName: {"LocaleId":"","Text":"BottomMargin"}
+              Value: 170.0
+          - Name: LowLimit
+            Id: ns=45;g=790bc859fdacb377f7a7435becbb3aae
+            Type: Rectangle
+            DisplayName: {"LocaleId":"","Text":"LowLimit"}
+            Children:
+            - Name: Height
+              Id: ns=45;g=a7a2e6403a607e19aed56af3fdfe9d53
+              Type: BaseVariableType
+              DataType: Size
+              DisplayName: {"LocaleId":"","Text":"Height"}
+              Value: 30.0
+      - Name: AnalogVariablePointer
+        Id: ns=45;g=8e57435c4335e5f1a6c5e99c5fb3a293
+        Type: Alias
+        DataType: NodeId
+        DisplayName: {"LocaleId":"","Text":"AnalogVariablePointer"}
+        Value: {"IdType":2,"Id":"afc0ff369b66b8b19b73f3bcb2f898d1","Namespace":45}
+        Children:
+        - Name: Kind
+          Id: ns=45;g=ef3e191fc6298150d48ca5ff3e13f602
+          Type: PropertyType
+          DataType: NodeId
+          DisplayName: {"LocaleId":"","Text":"Kind"}
+          Value: {"Id":2368}
+      - Name: ItemDetails
+        Id: ns=45;g=158b4e54ee71834c6c0035b5ce583f90
+        Type: Rectangle
+        DisplayName: {"LocaleId":"","Text":"ItemDetails"}
+        Children:
+        - Name: ItemName
+          Id: ns=45;g=122669c8c5bda4e490f3f11a4a37a6d2
+          Type: Label
+          DisplayName: {"LocaleId":"","Text":"ItemName"}
+          Children:
+          - Name: Text
+            Id: ns=45;g=7c3524074f419e6ed0da72d649eb97df
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            DisplayName: {"LocaleId":"","Text":"Text"}
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: HighAlarm
+        Id: ns=45;g=1bba8c7bde4feb5b07d9b34dc74eff6f
+        Type: BaseDataVariableType
+        DataType: Int32
+        DisplayName: {"LocaleId":"","Text":"HighAlarm"}
+        Value: 170
+      - Name: LowAlarm
+        Id: ns=45;g=a87950e05dd8cc3af31d06a5aead95c8
+        Type: BaseDataVariableType
+        DataType: Int32
+        DisplayName: {"LocaleId":"","Text":"LowAlarm"}
+        Value: 30
+      - Name: LeftMargin
+        Id: ns=45;g=277669ec5e53fd6fe53b40ef37894695
+        Type: BaseVariableType
+        DataType: Size
+        DisplayName: {"LocaleId":"","Text":"LeftMargin"}
+        ModellingRule: Optional
+        Value: 10.0
+    - Name: ns=45;II101
+      Id: ns=45;g=ca27025d3a22a3a8ba3b982ada8805a4
+      Type: SetpointIndicator
+      DisplayName: {"LocaleId":"","Text":"II101"}
+      Children:
+      - Name: Height
+        Id: ns=45;g=40249fd05061ed947a8c52d8b38182de
+        Type: BaseVariableType
+        DataType: Size
+        DisplayName: {"LocaleId":"","Text":"Height"}
+        Value: 260.0
+      - Name: ArrowArea
+        Id: ns=45;g=1aae8ab28aa10e0c048c6c39f302ab33
+        Type: Panel
+        DisplayName: {"LocaleId":"","Text":"ArrowArea"}
+        Children:
+        - Name: Arrow
+          Id: ns=45;g=801454992ead79b5a6a7597119e52a9e
+          Type: PolyLine
+          DisplayName: {"LocaleId":"","Text":"Arrow"}
+          Children:
+          - Name: BottomMargin
+            Id: ns=45;g=5da98d56c1e221db6fbea5f857e4895b
+            Type: BaseVariableType
+            DataType: Size
+            DisplayName: {"LocaleId":"","Text":"BottomMargin"}
+            Value: 0.0
+        - Name: Range
+          Id: ns=45;g=1986062b6bb02225f6a5d77936cd520f
+          Type: Rectangle
+          DisplayName: {"LocaleId":"","Text":"Range"}
+          Children:
+          - Name: HighLimit
+            Id: ns=45;g=7b47ca874d19e8b197300b2a7a42053a
+            Type: Rectangle
+            DisplayName: {"LocaleId":"","Text":"HighLimit"}
+            Children:
+            - Name: BottomMargin
+              Id: ns=45;g=3c222ee441649ef0fe035476d272e901
+              Type: BaseVariableType
+              DataType: Size
+              DisplayName: {"LocaleId":"","Text":"BottomMargin"}
+              Value: 170.0
+          - Name: LowLimit
+            Id: ns=45;g=3c2f7f3b7837a2c98edb758bbb4dae43
+            Type: Rectangle
+            DisplayName: {"LocaleId":"","Text":"LowLimit"}
+            Children:
+            - Name: Height
+              Id: ns=45;g=74de650c5509a6aa1509874f758fed85
+              Type: BaseVariableType
+              DataType: Size
+              DisplayName: {"LocaleId":"","Text":"Height"}
+              Value: 30.0
+      - Name: AnalogVariablePointer
+        Id: ns=45;g=16e969e6d7b49bd86b09469d468e2a51
+        Type: Alias
+        DataType: NodeId
+        DisplayName: {"LocaleId":"","Text":"AnalogVariablePointer"}
+        Value: {"IdType":2,"Id":"784621451ecc5190b50fcac962139f9d","Namespace":45}
+        Children:
+        - Name: Kind
+          Id: ns=45;g=6c0fdfab57eec178f12105be65b916e1
+          Type: PropertyType
+          DataType: NodeId
+          DisplayName: {"LocaleId":"","Text":"Kind"}
+          Value: {"Id":2368}
+      - Name: ItemDetails
+        Id: ns=45;g=b14c8ab7c04e48d8c81761a55406f324
+        Type: Rectangle
+        DisplayName: {"LocaleId":"","Text":"ItemDetails"}
+        Children:
+        - Name: ItemName
+          Id: ns=45;g=ce2e648f8c6dfc5f1890d6e8c4770d23
+          Type: Label
+          DisplayName: {"LocaleId":"","Text":"ItemName"}
+          Children:
+          - Name: Text
+            Id: ns=45;g=94e1fc7efd95b0d706c5a96762541239
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            DisplayName: {"LocaleId":"","Text":"Text"}
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: HighAlarm
+        Id: ns=45;g=a08d3fca0c306a268926b479c2d232fb
+        Type: BaseDataVariableType
+        DataType: Int32
+        DisplayName: {"LocaleId":"","Text":"HighAlarm"}
+        Value: 170
+      - Name: LowAlarm
+        Id: ns=45;g=2cb4bbfdb0163bcbb153448e1ec9cf17
+        Type: BaseDataVariableType
+        DataType: Int32
+        DisplayName: {"LocaleId":"","Text":"LowAlarm"}
+        Value: 30
+      - Name: LeftMargin
+        Id: ns=45;g=393e8f9caa3dd6f812e75c190af96492
+        Type: BaseVariableType
+        DataType: Size
+        DisplayName: {"LocaleId":"","Text":"LeftMargin"}
+        ModellingRule: Optional
+        Value: 10.0
+  - Name: ns=45;Button1
+    Id: ns=45;g=6b234e168dcc9790d3b8d810c1c6b35a
+    Type: Button
+    DisplayName: {"LocaleId":"","Text":"Button1"}
+    Children:
+    - Name: Text
+      Id: ns=45;g=3b12df7299ff53650edb6a943430c5f2
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      DisplayName: {"LocaleId":"","Text":"Text"}
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Button1"}
+    - Name: LeftMargin
+      Id: ns=45;g=84115278232fce42931eea9928ec816d
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"LeftMargin"}
+      ModellingRule: Optional
+      Value: 1380.0
+    - Name: TopMargin
+      Id: ns=45;g=4f0a47c73db28c9c008311b39cbbf610
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"TopMargin"}
+      ModellingRule: Optional
+      Value: 200.0
+    - Name: Width
+      Id: ns=45;g=937730a4397e2013fdab08ca1293ac50
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"Width"}
+      ModellingRule: Optional
+      Value: 430.0
+    - Name: Height
+      Id: ns=45;g=c8761fad7de88802ccd7f1340c697f4d
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"Height"}
+      ModellingRule: Optional
+      Value: 480.0
+    - Name: Visible
+      Id: ns=45;g=b67015136c073f1c64b25c4ba16e8a64
+      Type: BaseDataVariableType
+      DataType: Boolean
+      DisplayName: {"LocaleId":"","Text":"Visible"}
+      ModellingRule: Optional
+      Value: true
+    - Name: Opacity
+      Id: ns=45;g=0d1d1635db36edeca653b4e4e09ef895
+      Type: BaseVariableType
+      DataType: Float
+      DisplayName: {"LocaleId":"","Text":"Opacity"}
+      ModellingRule: Optional
+      Value: 0.0
+    - Name: ns=45;MouseClickEventHandler1
+      Id: ns=45;g=87c4e64af1cb9b78dcd709bdb9812288
+      Type: EventHandler
+      DisplayName: {"LocaleId":"","Text":"MouseClickEventHandler1"}
+      Children:
+      - Name: ListenEventType
+        Id: ns=45;g=a2773ddf0959569e12396cab309b8e4a
+        Type: PropertyType
+        DataType: NodeId
+        DisplayName: {"LocaleId":"","Text":"ListenEventType"}
+        Value: {"Id":16,"Namespace":22}
+      - Name: MethodsToCall
+        Id: ns=45;g=678deab5764843f118353f0f0759ba3a
+        Type: BaseObjectType
+        DisplayName: {"LocaleId":"","Text":"MethodsToCall"}
+        Children:
+        - Name: ns=45;MethodContainer1
+          Id: ns=45;g=f8293983498f41af0a0f9895ad8dff66
+          Type: BaseObjectType
+          DisplayName: {"LocaleId":"","Text":"MethodContainer1"}
+          Children:
+          - Name: ns=20;ObjectPointer
+            Id: ns=45;g=411063058330c4ad6c8396d56c30fb20
+            Type: NodePointer
+            DataType: NodeId
+            DisplayName: {"LocaleId":"","Text":"ObjectPointer"}
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+            Children:
+            - Name: Kind
+              Id: ns=45;g=e1be3e2c835436b3fe0553ff83a191ee
+              Type: PropertyType
+              DataType: NodeId
+              DisplayName: {"LocaleId":"","Text":"Kind"}
+              Value: {"Id":58}
+          - Name: ns=20;Method
+            Id: ns=45;g=e6ab92982414f0c35ed93013f02d3184
+            Type: BaseDataVariableType
+            DataType: String
+            DisplayName: {"LocaleId":"","Text":"Method"}
+            Value: "ChangePanel"
+          - Name: ns=45;InputArguments
+            Id: ns=45;g=d62f6fe0b0c01cb1dce97b483b99c7fb
+            Type: BaseObjectType
+            DisplayName: {"LocaleId":"","Text":"InputArguments"}
+            Children:
+            - Name: ns=45;NewPanel
+              Id: ns=45;g=03e8def266aca76292d35b8d693956f1
+              Type: BaseDataVariableType
+              DataType: NodeId
+              DisplayName: {"LocaleId":"","Text":"NewPanel"}
+              Description: {"LocaleId":"en-US","Text":"New panel"}
+              Value: {"IdType":2,"Id":"0484c537c507851ffc47085d73e38f3b","Namespace":45}
+            - Name: ns=45;AliasNode
+              Id: ns=45;g=19633b75b46438df12f2fd85f14fff47
+              Type: BaseDataVariableType
+              DataType: NodeId
+              DisplayName: {"LocaleId":"","Text":"AliasNode"}
+              Description: {"LocaleId":"en-US","Text":"Node to which to point any alias in the panel to be displayed."}
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: ns=45;EventArguments
+        Id: ns=45;g=a43035cb7f4d0ab2c8d7baf111eb1c98
+        Type: MouseClickEvent
+        DisplayName: {"LocaleId":"","Text":"EventArguments"}
+        Children:
+        - Name: EventId
+          Id: ns=45;g=d6830a844c9e97682bafcf7f75672f68
+          Type: PropertyType
+          DataType: ByteString
+          DisplayName: {"LocaleId":"","Text":"EventId"}
+          Value: ""
+        - Name: EventType
+          Id: ns=45;g=c56a4d59591a9a2a5def2bc60cb79775
+          Type: PropertyType
+          DataType: NodeId
+          DisplayName: {"LocaleId":"","Text":"EventType"}
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Name: SourceNode
+          Id: ns=45;g=f6205cdf9f3223e548240c6f3880f10c
+          Type: PropertyType
+          DataType: NodeId
+          DisplayName: {"LocaleId":"","Text":"SourceNode"}
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Name: SourceName
+          Id: ns=45;g=ccfd63cbb55623bf75d21fbf866a5b8c
+          Type: PropertyType
+          DataType: String
+          DisplayName: {"LocaleId":"","Text":"SourceName"}
+          Value: ""
+        - Name: Time
+          Id: ns=45;g=4e473ec99b81b6ee064b205e502f37fd
+          Type: PropertyType
+          DataType: UtcTime
+          DisplayName: {"LocaleId":"","Text":"Time"}
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: ReceiveTime
+          Id: ns=45;g=c6933b40216f1375d3701f3cc09a52f0
+          Type: PropertyType
+          DataType: UtcTime
+          DisplayName: {"LocaleId":"","Text":"ReceiveTime"}
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: Message
+          Id: ns=45;g=6bfaef168e8e8db488db6047c0a4ebca
+          Type: PropertyType
+          DataType: LocalizedText
+          DisplayName: {"LocaleId":"","Text":"Message"}
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Severity
+          Id: ns=45;g=93390239f123f826dbbb2d75316e2cc6
+          Type: PropertyType
+          DataType: UInt16
+          DisplayName: {"LocaleId":"","Text":"Severity"}
+          Value: 0
+  - Name: ns=45;Label1
+    Id: ns=45;g=6ed9f7d98070438c80ef6bdc0bf921a8
+    Type: Label
+    DisplayName: {"LocaleId":"","Text":"Label1"}
+    Children:
+    - Name: Text
+      Id: ns=45;g=240caa39cdd42ff57676f53f552f5273
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      DisplayName: {"LocaleId":"","Text":"Text"}
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Label1"}
+    - Name: TopMargin
+      Id: ns=45;g=61353bb5b16c00700294f3c23b07e049
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"TopMargin"}
+      ModellingRule: Optional
+      Value: 235.0
+    - Name: LeftMargin
+      Id: ns=45;g=37107102018de6c731dea374fbfcdaf2
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"LeftMargin"}
+      ModellingRule: Optional
+      Value: 275.0
+    - Name: TextColor
+      Id: ns=45;g=28708a2528b4537fcf8ad0a1b2887dc9
+      Type: BaseDataVariableType
+      DataType: Color
+      DisplayName: {"LocaleId":"","Text":"TextColor"}
+      ModellingRule: Optional
+      Value: "#180900e0"
+    - Name: Height
+      Id: ns=45;g=56ddebd95a8674c22a8bcb2a19ffd8b0
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"Height"}
+      ModellingRule: Optional
+      Value: 45.0
+    - Name: Width
+      Id: ns=45;g=5ca9b189189c5a00cfd7d13ce24c9e78
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"Width"}
+      ModellingRule: Optional
+      Value: 85.0
+    - Name: FontSize
+      Id: ns=45;g=43e3d003d65c24832ead0c8d09dd783b
+      Type: BaseDataVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"FontSize"}
+      ModellingRule: Optional
+      Value: 20.0

@@ -1,0 +1,48 @@
+Name: ns=45;Retentivity
+Id: ns=45;g=589dd6389b9388f6b15897818e38e655
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"Retentivity"}
+Children:
+- Name: ns=45;SecurityFolder
+  Id: ns=45;g=4dbc1ad94a9f233d768cdbd0b0b44dd3
+  Type: RetentivityStorage
+  DisplayName: {"LocaleId":"","Text":"SecurityFolder"}
+  Children:
+  - Name: Nodes
+    Id: ns=45;g=32fa65de65c5bbaa3fd3522ab6f224ba
+    Type: BaseObjectType
+    DisplayName: {"LocaleId":"","Text":"Nodes"}
+    Children:
+    - Name: ns=45;Node1
+      Id: ns=45;g=19a700201ebc4860e8d97e422be82f61
+      Type: NodePointer
+      DataType: NodeId
+      DisplayName: {"LocaleId":"","Text":"Node1"}
+      Value: {"IdType":2,"Id":"cc97cc8100d922a59b5ba54b925eda13","Namespace":45}
+      Children:
+      - Name: Kind
+        Id: ns=45;g=6d1ff33c9d6b0b1863a587321c88fd6a
+        Type: PropertyType
+        DataType: NodeId
+        DisplayName: {"LocaleId":"","Text":"Kind"}
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: NodeClass
+        Id: ns=45;g=695de40605c27b0d3592dddf5d53befc
+        Type: PropertyType
+        DataType: NodePointerNodeClass
+        DisplayName: {"LocaleId":"","Text":"NodeClass"}
+        Value: 2
+  - Name: WriteDelay
+    Id: ns=45;g=aa5d48740d72af0556d669d87227391f
+    Type: BaseDataVariableType
+    DataType: Duration
+    DisplayName: {"LocaleId":"","Text":"WriteDelay"}
+    ReferenceType: HasProperty
+    Value: "0:00:00:0.0000000"
+  - Name: DeltaObserverEnabled
+    Id: ns=45;g=5cd618fc461885ad3497729ea272cce1
+    Type: BaseDataVariableType
+    DataType: Boolean
+    DisplayName: {"LocaleId":"","Text":"DeltaObserverEnabled"}
+    ReferenceType: HasProperty
+    Value: true

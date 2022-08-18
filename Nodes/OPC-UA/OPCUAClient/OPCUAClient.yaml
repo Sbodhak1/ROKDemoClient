@@ -1,0 +1,123 @@
+Name: OPCUAClient
+Id: g=9f78eb2f1f373feb2ad5ccb7e29a5e21
+Type: OPCUAClient
+Children:
+- Name: ServerEndpointURL
+  Id: g=9d6539c78dc906748451572b364cb128
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "opc.tcp://127.0.0.1:59100"
+- Name: MinimumMessageSecurityMode
+  Id: g=fb98aab256cff36edb678a75d624d8a6
+  Type: BaseDataVariableType
+  DataType: ns=32;MessageSecurityModeEnum
+  Value: 0
+- Name: MinimumSecurityPolicy
+  Id: g=de5f7b42eba591a53fff1561d132b975
+  Type: BaseDataVariableType
+  DataType: ns=32;SecurityPolicyEnum
+  Value: 0
+- Name: UserIdentityType
+  Id: g=2f83b81d23f7857fc67791ce0ccf629a
+  Type: BaseDataVariableType
+  DataType: UserIdentityTypeEnum
+  Value: 0
+- Name: ConnectionStatus
+  Id: g=c0315820d72187bdb040cc607979c546
+  Type: BaseDataVariableType
+  DataType: ConnectionStatusEnum
+  AccessLevel: Read
+  Value: 0
+- Name: ServerUri
+  Id: g=d4c8868abe8187fe745e2d98640a05c0
+  Type: BaseDataVariableType
+  DataType: String
+  AccessLevel: Read
+  Value: ""
+- Name: Events
+  Id: g=0e112ef200738542ec82cb6b628d16c5
+  Type: BaseDataVariableType
+  DataType: EventsEnum
+  Value: 2
+- Name: RuntimeConfigurations
+  Id: g=c3d8867db5356ea36dd84f56176f3329
+  Type: BaseObjectType
+  Children:
+  - Name: RuntimeConfiguration1
+    Id: g=082da54c5138fbceed375951ddaf5ea4
+    Type: RuntimeConfigurationEntry
+    Children:
+    - Name: LocalDestinationNode
+      Id: g=84080a258739f518c95fbb5ceed1f48e
+      Type: BaseDataVariableType
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"54360184070411dd0bfa21ffee7389f7","Namespace":41}
+    - Name: RemoteSourceNode
+      Id: g=90c1d25ab77c3f5b79e16fe76524ed0d
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "/Objects/BoilerDemo/DataStores"
+      Children:
+      - Name: DynamicLink
+        Id: g=4db2cc271c5bdfe2c630e8e2b6f98617
+        Type: DataBind
+        DataType: NodePath
+        Value: "../../../Objects"
+        Children:
+        - Name: Mode
+          Id: g=29c25881eebe0afcf9a6a249e546f0ef
+          Type: BaseVariableType
+          DataType: DataBindModeType
+          Value: 2
+    - Name: ContentSynchronizationMode
+      Id: g=76ca1cef40d1efabcf73a09cf1a0e0dd
+      Type: BaseDataVariableType
+      DataType: ContentSynchronizationModeEnum
+      Value: 3
+    - Name: IncludeRemoteSourceNode
+      Id: g=925fd9a3940e89655514243e46e70838
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: EventSynchronization
+      Id: g=2783beabb313304f645f5aa4f873171f
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+- Class: Reference
+  Target: ns=32;i=8
+  Direction: Forward
+- Class: Reference
+  Target: ns=32;i=9
+  Direction: Forward
+- Class: Reference
+  Target: ns=32;i=54
+  Direction: Forward
+- Class: Reference
+  Target: ns=32;i=57
+  Direction: Forward
+- Class: Reference
+  Target: ns=32;i=91
+  Direction: Forward
+- Class: Reference
+  Target: ns=32;i=60
+  Direction: Forward
+- Class: Reference
+  Target: ns=32;i=63
+  Direction: Forward
+- Class: Reference
+  Target: ns=32;i=83
+  Direction: Forward
+- Class: Reference
+  Target: ns=32;i=75
+  Direction: Forward
+- Name: VerifyServerIdentity
+  Id: g=f6b1f3cd1f0a171478fb9f3d0805d99b
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Objects
+  Id: g=cbb0439162d8f92d64a16ef13a60c765
+  Type: BaseObjectType
+  Children:
+  - File: ROKLiveUSA2022_HOL/ROKLiveUSA2022_HOL.yaml

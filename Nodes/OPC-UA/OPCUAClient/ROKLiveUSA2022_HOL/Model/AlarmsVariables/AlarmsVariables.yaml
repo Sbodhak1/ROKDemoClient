@@ -1,0 +1,17 @@
+Name: ns=45;AlarmsVariables
+Id: ns=45;g=ff87f3408a1b572d97e27a1a02c9fb69
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"AlarmsVariables"}
+Children:
+- Name: ns=45;RotaryFillerHead3
+  Id: ns=45;g=ec93de2566b42c08be0d6b7bd4efd8aa
+  Type: BaseDataVariableType
+  DataType: Boolean
+  DisplayName: {"LocaleId":"","Text":"RotaryFillerHead3"}
+  Value: false
+- Name: ns=45;InletTank
+  Id: ns=45;g=4bc713882cda66781e6f7e7d0f47a440
+  Type: BaseDataVariableType
+  DataType: Int32
+  DisplayName: {"LocaleId":"","Text":"InletTank"}
+  Value: 0

@@ -1,0 +1,38 @@
+Name: 'ns=45;OPC-UA'
+Id: ns=45;g=3bb6804794c19c935fcd650accbd7aea
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"OPC-UA"}
+Children:
+- Name: ns=45;OPCUAServer1
+  Id: ns=45;g=dee6ff7003505df5fefb7e8141d26d8a
+  Type: OPCUAServer
+  DisplayName: {"LocaleId":"","Text":"OPCUAServer1"}
+  Children:
+  - Name: EndpointURL
+    Id: ns=45;g=53ba2ce395c8dd5c1f5f1751fabc3be8
+    Type: PropertyType
+    DataType: ResourceUri
+    DisplayName: {"LocaleId":"","Text":"EndpointURL"}
+    Value: "opc.tcp://localhost:59100"
+  - Name: NodesToPublish
+    Id: ns=45;g=8f2dde6f06e373654f3a1ffd823ab955
+    Type: BaseObjectType
+    DisplayName: {"LocaleId":"","Text":"NodesToPublish"}
+  - Name: MinimumMessageSecurityMode
+    Id: ns=45;g=f8e4f51f60997122a058801bba726088
+    Type: PropertyType
+    DataType: ns=18;MessageSecurityModeEnum
+    DisplayName: {"LocaleId":"","Text":"MinimumMessageSecurityMode"}
+    Value: 0
+  - Name: MinimumSecurityPolicy
+    Id: ns=45;g=6998cff4c6150b572a15c32f9e575795
+    Type: PropertyType
+    DataType: ns=18;SecurityPolicyEnum
+    DisplayName: {"LocaleId":"","Text":"MinimumSecurityPolicy"}
+    Value: 0
+  - Name: AllowMultipleConnection
+    Id: ns=45;g=13109df5cb886d67230daa35238eef5a
+    Type: BaseDataVariableType
+    DataType: Boolean
+    DisplayName: {"LocaleId":"","Text":"AllowMultipleConnection"}
+    Value: true

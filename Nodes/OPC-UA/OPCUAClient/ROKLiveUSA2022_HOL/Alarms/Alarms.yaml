@@ -1,0 +1,140 @@
+Name: ns=45;Alarms
+Id: ns=45;g=12d449b770a60cf900f5fae9afb370f0
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"Alarms"}
+Children:
+- Name: ns=45;DigitalAlarm
+  Id: ns=45;g=8d60a6ee8aa1d0aab6687db930a722d0
+  Type: OffNormalAlarmController
+  DisplayName: {"LocaleId":"","Text":"DigitalAlarm"}
+  Children:
+  - Name: NormalStateValue
+    Id: ns=45;g=926aef081d92f326d429abff8769bdc0
+    Type: BaseDataVariableType
+    DataType: Double
+    DisplayName: {"LocaleId":"","Text":"NormalStateValue"}
+    Value: 0.0
+  - Name: InputValue
+    Id: ns=45;g=f93259d81d4b97995c23b7d1c2d42547
+    Type: BaseDataVariableType
+    DataType: Double
+    DisplayName: {"LocaleId":"","Text":"InputValue"}
+    Value: 0.0
+  - Name: LastEvent
+    Id: ns=45;g=819f7deb4015096217999f5e82ddf024
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"LastEvent"}
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=28;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=28;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=28;i=83
+    Direction: Forward
+  - Name: Message
+    Id: ns=45;g=2cab306339a23b03aa091eac863f0f73
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    DisplayName: {"LocaleId":"","Text":"Message"}
+    Value: {"LocaleId":"en-US","Text":"Setpoint out of scale"}
+  - Name: Severity
+    Id: ns=45;g=4e7a3f1e6941b68ee9ebccc97716414f
+    Type: BaseDataVariableType
+    DataType: UInt16
+    DisplayName: {"LocaleId":"","Text":"Severity"}
+    Value: 2
+- Name: ns=45;AnalogAlarm
+  Id: ns=45;g=a1ae006f839fee6e21b0f6209250a041
+  Type: ExclusiveLevelAlarmController
+  DisplayName: {"LocaleId":"","Text":"AnalogAlarm"}
+  Children:
+  - Name: InputValue
+    Id: ns=45;g=df21452d0618dbfc698e390716cddac5
+    Type: BaseDataVariableType
+    DataType: Double
+    DisplayName: {"LocaleId":"","Text":"InputValue"}
+    Value: 0.0
+  - Name: LastEvent
+    Id: ns=45;g=845c84fbc907e70c0c1bb4f7e1f5c64b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"LastEvent"}
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=28;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=28;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=28;i=83
+    Direction: Forward
+  - Name: HighLimit
+    Id: ns=45;g=f639d5bfee8d7a4ccac7ecba4b53662f
+    Type: BaseDataVariableType
+    DataType: Double
+    DisplayName: {"LocaleId":"","Text":"HighLimit"}
+    Value: 75.0
+  - Name: HighHighLimit
+    Id: ns=45;g=2ae07912b904bff47f1f179b36eca958
+    Type: BaseDataVariableType
+    DataType: Double
+    DisplayName: {"LocaleId":"","Text":"HighHighLimit"}
+    Value: 75.0
+  - Name: Message
+    Id: ns=45;g=bf49414d360ac64d604eb746885ddd57
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    DisplayName: {"LocaleId":"","Text":"Message"}
+    Value: {"LocaleId":"en-US","Text":"High Level"}
+  - Name: Severity
+    Id: ns=45;g=7c77e7c699fe7dea8ddd29294a8eb48e
+    Type: BaseDataVariableType
+    DataType: UInt16
+    DisplayName: {"LocaleId":"","Text":"Severity"}
+    Value: 2
+- Name: ns=45;MotorAlarm
+  Id: ns=45;g=5860b5b482b59ae7d08469b55163f3e7
+  Type: OffNormalAlarmController
+  DisplayName: {"LocaleId":"","Text":"MotorAlarm"}
+  Children:
+  - Name: NormalStateValue
+    Id: ns=45;g=0bd232b3b4ae0a32d3be9ff7d627850d
+    Type: BaseDataVariableType
+    DataType: Double
+    DisplayName: {"LocaleId":"","Text":"NormalStateValue"}
+    Value: 0.0
+  - Name: InputValue
+    Id: ns=45;g=7d96bed852a30dba6ed480bbeffd151a
+    Type: BaseDataVariableType
+    DataType: Double
+    DisplayName: {"LocaleId":"","Text":"InputValue"}
+    Value: 0.0
+  - Name: LastEvent
+    Id: ns=45;g=ae34ae258a9012187c482eddab3e55a3
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"LastEvent"}
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=28;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=28;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=28;i=83
+    Direction: Forward
+  - Name: Message
+    Id: ns=45;g=bea7955896e747eb99af47cfcc897eb8
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    DisplayName: {"LocaleId":"","Text":"Message"}
+    Value: {"LocaleId":"en-US","Text":"Inlet Pump Alarm"}

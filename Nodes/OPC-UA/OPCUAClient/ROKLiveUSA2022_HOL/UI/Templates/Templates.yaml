@@ -1,0 +1,913 @@
+Name: ns=45;Templates
+Id: ns=45;g=614717d88c56f6fc88b4432bdf16e205
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"Templates"}
+Children:
+- Name: BasePage
+  Id: ns=45;g=d1a3b6babc2c2831a542f6ffa2fa86b6
+  Supertype: Panel
+  DisplayName: {"LocaleId":"","Text":"BasePage"}
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Id: ns=45;g=ed9a1748c0de1ed9ec67e2b0d4b58984
+    Type: BaseVariableType
+    DataType: Size
+    DisplayName: {"LocaleId":"","Text":"Width"}
+    ModellingRule: Optional
+    Value: 1920.0
+  - Name: Height
+    Id: ns=45;g=2b38b52f220e4f9d098d6644fa924340
+    Type: BaseVariableType
+    DataType: Size
+    DisplayName: {"LocaleId":"","Text":"Height"}
+    ModellingRule: Optional
+    Value: 1020.0
+  - Name: HorizontalAlignment
+    Id: ns=45;g=4f325764f98bbb32712d55a4659fdc4b
+    Type: BaseVariableType
+    DataType: HorizontalAlignment
+    DisplayName: {"LocaleId":"","Text":"HorizontalAlignment"}
+    ModellingRule: Optional
+    Value: 3
+  - Name: VerticalAlignment
+    Id: ns=45;g=0e458bd972200ea11b34ba2905aa86a6
+    Type: BaseVariableType
+    DataType: VerticalAlignment
+    DisplayName: {"LocaleId":"","Text":"VerticalAlignment"}
+    ModellingRule: Optional
+    Value: 3
+  - Name: ns=45;Background
+    Id: ns=45;g=a21bbf719bd46715352aff38870467ba
+    Type: Image
+    DisplayName: {"LocaleId":"","Text":"Background"}
+    Children:
+    - Name: Path
+      Id: ns=45;g=28c8b96e3597d0f0c4016588da3d8d90
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      DisplayName: {"LocaleId":"","Text":"Path"}
+      Value: ""
+    - Name: Width
+      Id: ns=45;g=7ce019bd32d178d9c3facb9402ab4a76
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"Width"}
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Id: ns=45;g=17a6dfe139276a91476de33007261361
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"Height"}
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: HorizontalAlignment
+      Id: ns=45;g=88becabb2f57dbd8fe61353998a8578e
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      DisplayName: {"LocaleId":"","Text":"HorizontalAlignment"}
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Id: ns=45;g=5776d2b1eda8ff1cf9ba07b6a98459e5
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      DisplayName: {"LocaleId":"","Text":"VerticalAlignment"}
+      ModellingRule: Optional
+      Value: 3
+    - Name: FillMode
+      Id: ns=45;g=7164c8fff6e567fbcc683076ee4d9156
+      Type: BaseDataVariableType
+      DataType: FillModeEnum
+      DisplayName: {"LocaleId":"","Text":"FillMode"}
+      ModellingRule: Optional
+      Value: 1
+- Name: TransparentButton
+  Id: ns=45;g=0b1cf004a7d4e9d884b13a8814252d78
+  Supertype: Button
+  DisplayName: {"LocaleId":"","Text":"TransparentButton"}
+  ReferenceType: HasComponent
+  Children:
+  - Name: Appearance
+    Id: ns=45;g=b56cc232cbd4a1960ce8ab6b75d03eb7
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"","Text":"Appearance"}
+    ModellingRule: Optional
+    Value: "transparent"
+  - Name: HorizontalAlignment
+    Id: ns=45;g=0767f34ec800149f51f09dd3ca7ce2b9
+    Type: BaseVariableType
+    DataType: HorizontalAlignment
+    DisplayName: {"LocaleId":"","Text":"HorizontalAlignment"}
+    ModellingRule: Optional
+    Value: 0
+  - Name: Width
+    Id: ns=45;g=944a17fc068889f7eab7ffddc961a8f0
+    Type: BaseVariableType
+    DataType: Size
+    DisplayName: {"LocaleId":"","Text":"Width"}
+    ModellingRule: Optional
+    Value: 200.0
+  - Name: Height
+    Id: ns=45;g=8c36960b212396d014207b9cb9479291
+    Type: BaseVariableType
+    DataType: Size
+    DisplayName: {"LocaleId":"","Text":"Height"}
+    ModellingRule: Optional
+    Value: 200.0
+- Name: SetpointIndicator
+  Id: ns=45;g=134883bd04927949f78136fb302f4678
+  Supertype: Panel
+  DisplayName: {"LocaleId":"","Text":"SetpointIndicator"}
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Id: ns=45;g=f0b9d48e2fd0d299680e5fdf4e9361c5
+    Type: BaseVariableType
+    DataType: Size
+    DisplayName: {"LocaleId":"","Text":"Width"}
+    ModellingRule: Optional
+    Value: 70.0
+  - Name: Height
+    Id: ns=45;g=48fc060d3a8e7734072399b870623843
+    Type: BaseVariableType
+    DataType: Size
+    DisplayName: {"LocaleId":"","Text":"Height"}
+    Value: 260.0
+  - Name: ns=45;ArrowArea
+    Id: ns=45;g=21e5a9406d6b64ed8669baf6606ba8b8
+    Type: Panel
+    DisplayName: {"LocaleId":"","Text":"ArrowArea"}
+    Children:
+    - Name: Width
+      Id: ns=45;g=cf96a7f70428b18c6b967c2efdb1d0ad
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"Width"}
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Id: ns=45;g=193d4585bba761df84fe9b9d23455401
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"Height"}
+      ModellingRule: Optional
+      Value: 220.0
+    - Name: LeftMargin
+      Id: ns=45;g=e0a491b53511cf45fc1352633c8f5014
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"LeftMargin"}
+      ModellingRule: Optional
+      Value: 0.0
+    - Name: TopMargin
+      Id: ns=45;g=6a41971134bf6eac0f9b74461200cb9e
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"TopMargin"}
+      ModellingRule: Optional
+      Value: 0.0
+    - Name: ns=45;Arrow
+      Id: ns=45;g=200518c3f34de192bfd699ca7b8e23f2
+      Type: PolyLine
+      DisplayName: {"LocaleId":"","Text":"Arrow"}
+      Children:
+      - Name: LineColor
+        Id: ns=45;g=e5fc87b3cb0f3a6542a5851ebb31de21
+        Type: BaseDataVariableType
+        DataType: Color
+        DisplayName: {"LocaleId":"","Text":"LineColor"}
+        ModellingRule: Optional
+        Value: "#e4e4e4"
+      - Name: FillColor
+        Id: ns=45;g=6af5d0689e32b4e0de4090ce04d3f372
+        Type: BaseDataVariableType
+        DataType: Color
+        DisplayName: {"LocaleId":"","Text":"FillColor"}
+        ModellingRule: Optional
+        Value: "#e4e4e4"
+      - Name: LineThickness
+        Id: ns=45;g=ceead02fa9a331a085688665e79b8610
+        Type: BaseDataVariableType
+        DataType: Size
+        DisplayName: {"LocaleId":"","Text":"LineThickness"}
+        ModellingRule: Optional
+        Value: 1.0
+      - Name: Blink
+        Id: ns=45;g=044aba3889dc2710e93cc4a0b9b6bb91
+        Type: BaseDataVariableType
+        DataType: Boolean
+        DisplayName: {"LocaleId":"","Text":"Blink"}
+        ModellingRule: Optional
+        Value: false
+      - Name: Path
+        Id: ns=45;g=ea427e561666802515ee51e112ef3002
+        Type: BaseDataVariableType
+        DataType: String
+        DisplayName: {"LocaleId":"","Text":"Path"}
+        ModellingRule: Optional
+        Value: "M 0.000000 0.000000 l 20.000000 10.000000 l -20.000000 10.000000 z"
+      - Name: HitTestVisible
+        Id: ns=45;g=6f73e8d4926fd0150cfc7e1dd959c460
+        Type: BaseDataVariableType
+        DataType: Boolean
+        DisplayName: {"LocaleId":"","Text":"HitTestVisible"}
+        ModellingRule: Optional
+        Value: false
+      - Name: Visible
+        Id: ns=45;g=7e9664e6cdd9a9f271877e40c803624d
+        Type: BaseDataVariableType
+        DataType: Boolean
+        DisplayName: {"LocaleId":"","Text":"Visible"}
+        ModellingRule: Optional
+        Value: true
+      - Name: Enabled
+        Id: ns=45;g=334e7ab8cec377b3fec4092fc1669555
+        Type: BaseDataVariableType
+        DataType: Boolean
+        DisplayName: {"LocaleId":"","Text":"Enabled"}
+        ModellingRule: Optional
+        Value: true
+      - Name: Opacity
+        Id: ns=45;g=9159971f1e2477acb5657b91abbd4e40
+        Type: BaseVariableType
+        DataType: Float
+        DisplayName: {"LocaleId":"","Text":"Opacity"}
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: RightMargin
+        Id: ns=45;g=91148768309728766c4da654895f4ce6
+        Type: BaseVariableType
+        DataType: Size
+        DisplayName: {"LocaleId":"","Text":"RightMargin"}
+        ModellingRule: Optional
+        Value: 0.0
+      - Name: Width
+        Id: ns=45;g=1a633e6b8a7068b78fa28d6ad01f3be9
+        Type: BaseVariableType
+        DataType: Size
+        DisplayName: {"LocaleId":"","Text":"Width"}
+        ModellingRule: Optional
+        Value: 20.0
+      - Name: Height
+        Id: ns=45;g=39d3df5c588cb07f8bb8cb6c10b028f6
+        Type: BaseVariableType
+        DataType: Size
+        DisplayName: {"LocaleId":"","Text":"Height"}
+        ModellingRule: Optional
+        Value: 20.0
+      - Name: HorizontalAlignment
+        Id: ns=45;g=64f99332bd51dda4cd0bf881c214fdb2
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        DisplayName: {"LocaleId":"","Text":"HorizontalAlignment"}
+        ModellingRule: Optional
+        Value: 0
+      - Name: VerticalAlignment
+        Id: ns=45;g=978a03e08faed722a8d26830ee0ff847
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        DisplayName: {"LocaleId":"","Text":"VerticalAlignment"}
+        ModellingRule: Optional
+        Value: 1
+      - Name: Rotation
+        Id: ns=45;g=a9e153ebcb277f10ba4661d07dcd7e76
+        Type: BaseVariableType
+        DataType: Size
+        DisplayName: {"LocaleId":"","Text":"Rotation"}
+        ModellingRule: Optional
+        Value: 0.0
+      - Name: LeftMargin
+        Id: ns=45;g=86dce8ecad14572eb9adaf7050873eb5
+        Type: BaseVariableType
+        DataType: Size
+        DisplayName: {"LocaleId":"","Text":"LeftMargin"}
+        ModellingRule: Optional
+        Value: 15.0
+      - Name: BottomMargin
+        Id: ns=45;g=1bd03242f59e5aa9c61953b919f2d52d
+        Type: BaseVariableType
+        DataType: Size
+        DisplayName: {"LocaleId":"","Text":"BottomMargin"}
+        Value: 0.0
+    - Name: HorizontalAlignment
+      Id: ns=45;g=71ae5b5f18476026769e9408ba8eee39
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      DisplayName: {"LocaleId":"","Text":"HorizontalAlignment"}
+      ModellingRule: Optional
+      Value: 1
+    - Name: RightMargin
+      Id: ns=45;g=d2a56392b10274b770caf7ad93c422c0
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"RightMargin"}
+      ModellingRule: Optional
+      Value: 0.0
+    - Name: ns=45;Range
+      Id: ns=45;g=ca04bb0f14e672a9cdfda8082ffaa0ed
+      Type: Rectangle
+      DisplayName: {"LocaleId":"","Text":"Range"}
+      Children:
+      - Name: Width
+        Id: ns=45;g=8ff5bce7d2d0dfc82af42dad5f2784da
+        Type: BaseVariableType
+        DataType: Size
+        DisplayName: {"LocaleId":"","Text":"Width"}
+        ModellingRule: Optional
+        Value: 15.0
+      - Name: BorderThickness
+        Id: ns=45;g=f6b4c288537a8297e794d23ffa4367f9
+        Type: BaseDataVariableType
+        DataType: Size
+        DisplayName: {"LocaleId":"","Text":"BorderThickness"}
+        ModellingRule: Optional
+        Value: 1.0
+      - Name: ns=45;HighLimit
+        Id: ns=45;g=823fdf05b15b681425c9c10b3194bc1e
+        Type: Rectangle
+        DisplayName: {"LocaleId":"","Text":"HighLimit"}
+        Children:
+        - Name: Width
+          Id: ns=45;g=bf82745f7b5eebcdd29532697898c269
+          Type: BaseVariableType
+          DataType: Size
+          DisplayName: {"LocaleId":"","Text":"Width"}
+          ModellingRule: Optional
+          Value: 15.0
+        - Name: Height
+          Id: ns=45;g=0398b0ff6f94f47862c19056f23ac9dd
+          Type: BaseVariableType
+          DataType: Size
+          DisplayName: {"LocaleId":"","Text":"Height"}
+          ModellingRule: Optional
+          Value: 30.0
+        - Name: BorderThickness
+          Id: ns=45;g=a6aad2d785c6e5245f913e8500434ce2
+          Type: BaseDataVariableType
+          DataType: Size
+          DisplayName: {"LocaleId":"","Text":"BorderThickness"}
+          ModellingRule: Optional
+          Value: 1.0
+        - Name: HorizontalAlignment
+          Id: ns=45;g=90aad352f166e07995c44ba8e3aed10b
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          DisplayName: {"LocaleId":"","Text":"HorizontalAlignment"}
+          ModellingRule: Optional
+          Value: 3
+        - Name: BorderColor
+          Id: ns=45;g=a76d80c90c85609ddf910f568cd67697
+          Type: BaseDataVariableType
+          DataType: Color
+          DisplayName: {"LocaleId":"","Text":"BorderColor"}
+          ModellingRule: Optional
+          Value: "#9e9e9e"
+        - Name: FillColor
+          Id: ns=45;g=fb5933124bc574aa992146c7a7d03fe7
+          Type: BaseDataVariableType
+          DataType: Color
+          DisplayName: {"LocaleId":"","Text":"FillColor"}
+          ModellingRule: Optional
+          Value: "#9e9e9e"
+        - Name: VerticalAlignment
+          Id: ns=45;g=86009ef9a2da6ed1f960eb1442e1bcc9
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          DisplayName: {"LocaleId":"","Text":"VerticalAlignment"}
+          ModellingRule: Optional
+          Value: 3
+        - Name: LeftMargin
+          Id: ns=45;g=d3350d4b30ff430309fbae604457fb36
+          Type: BaseVariableType
+          DataType: Size
+          DisplayName: {"LocaleId":"","Text":"LeftMargin"}
+          ModellingRule: Optional
+          Value: 1.0
+        - Name: TopMargin
+          Id: ns=45;g=3ab990ade6a5c45f81ccb0ba6a59b267
+          Type: BaseVariableType
+          DataType: Size
+          DisplayName: {"LocaleId":"","Text":"TopMargin"}
+          ModellingRule: Optional
+          Value: 1.0
+        - Name: RightMargin
+          Id: ns=45;g=0cbc144a44364118d5cc7a62e41bc357
+          Type: BaseVariableType
+          DataType: Size
+          DisplayName: {"LocaleId":"","Text":"RightMargin"}
+          ModellingRule: Optional
+          Value: 1.0
+        - Name: BottomMargin
+          Id: ns=45;g=ef16e265354e20017911b0b01e727823
+          Type: BaseVariableType
+          DataType: Size
+          DisplayName: {"LocaleId":"","Text":"BottomMargin"}
+          Value: 170.0
+      - Name: ns=45;LowLimit
+        Id: ns=45;g=fa4490a01c8e94262229940eb5716b61
+        Type: Rectangle
+        DisplayName: {"LocaleId":"","Text":"LowLimit"}
+        Children:
+        - Name: Width
+          Id: ns=45;g=3cd3f35989fd415076c32d1ce6e943ff
+          Type: BaseVariableType
+          DataType: Size
+          DisplayName: {"LocaleId":"","Text":"Width"}
+          ModellingRule: Optional
+          Value: 15.0
+        - Name: BorderThickness
+          Id: ns=45;g=919b3643ad75f4d64f0f0b2ad73aa633
+          Type: BaseDataVariableType
+          DataType: Size
+          DisplayName: {"LocaleId":"","Text":"BorderThickness"}
+          ModellingRule: Optional
+          Value: 1.0
+        - Name: VerticalAlignment
+          Id: ns=45;g=918b62b54a8ff350bf4af57dfc5c46c8
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          DisplayName: {"LocaleId":"","Text":"VerticalAlignment"}
+          ModellingRule: Optional
+          Value: 1
+        - Name: HorizontalAlignment
+          Id: ns=45;g=11e136bc02f7e573ecb2db0a844c3aee
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          DisplayName: {"LocaleId":"","Text":"HorizontalAlignment"}
+          ModellingRule: Optional
+          Value: 3
+        - Name: BorderColor
+          Id: ns=45;g=38963b129aa8a7f14c9702b12948ab21
+          Type: BaseDataVariableType
+          DataType: Color
+          DisplayName: {"LocaleId":"","Text":"BorderColor"}
+          ModellingRule: Optional
+          Value: "#9e9e9e"
+        - Name: FillColor
+          Id: ns=45;g=f7e94e2a4a37351a9b43a54e9c703f96
+          Type: BaseDataVariableType
+          DataType: Color
+          DisplayName: {"LocaleId":"","Text":"FillColor"}
+          ModellingRule: Optional
+          Value: "#9e9e9e"
+        - Name: LeftMargin
+          Id: ns=45;g=3108990164e931262a10c6cb8a1ed1fe
+          Type: BaseVariableType
+          DataType: Size
+          DisplayName: {"LocaleId":"","Text":"LeftMargin"}
+          ModellingRule: Optional
+          Value: 1.0
+        - Name: RightMargin
+          Id: ns=45;g=e7f06913a3dd4ff70c7e997201d7ceb8
+          Type: BaseVariableType
+          DataType: Size
+          DisplayName: {"LocaleId":"","Text":"RightMargin"}
+          ModellingRule: Optional
+          Value: 1.0
+        - Name: BottomMargin
+          Id: ns=45;g=ef7cd28fb7275dd0815249f710e7dfdd
+          Type: BaseVariableType
+          DataType: Size
+          DisplayName: {"LocaleId":"","Text":"BottomMargin"}
+          ModellingRule: Optional
+          Value: 1.0
+        - Name: Height
+          Id: ns=45;g=1ece697239e051ae7d536c458a043f39
+          Type: BaseVariableType
+          DataType: Size
+          DisplayName: {"LocaleId":"","Text":"Height"}
+          Value: 30.0
+      - Name: BorderColor
+        Id: ns=45;g=6e5dd9f4dcad64be687318e3861c44ed
+        Type: BaseDataVariableType
+        DataType: Color
+        DisplayName: {"LocaleId":"","Text":"BorderColor"}
+        ModellingRule: Optional
+        Value: "#3b3b3b"
+      - Name: FillColor
+        Id: ns=45;g=523875b5b4a97015bf9316e92adecc6e
+        Type: BaseDataVariableType
+        DataType: Color
+        DisplayName: {"LocaleId":"","Text":"FillColor"}
+        ModellingRule: Optional
+        Value: "#e4e4e4"
+      - Name: LeftMargin
+        Id: ns=45;g=640c8dbb034f75d4496c844c3e42c78d
+        Type: BaseVariableType
+        DataType: Size
+        DisplayName: {"LocaleId":"","Text":"LeftMargin"}
+        ModellingRule: Optional
+        Value: 35.0
+      - Name: HorizontalAlignment
+        Id: ns=45;g=4e7839d7076eb0a169b7738f77a0113a
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        DisplayName: {"LocaleId":"","Text":"HorizontalAlignment"}
+        ModellingRule: Optional
+        Value: 1
+      - Name: VerticalAlignment
+        Id: ns=45;g=07ad13318e55985558b7f4fa68b4e98d
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        DisplayName: {"LocaleId":"","Text":"VerticalAlignment"}
+        ModellingRule: Optional
+        Value: 2
+      - Name: Height
+        Id: ns=45;g=32c926c9d2f62cf029d48216eee8b93b
+        Type: BaseVariableType
+        DataType: Size
+        DisplayName: {"LocaleId":"","Text":"Height"}
+        ModellingRule: Optional
+        Value: 200.0
+  - Name: ns=45;AnalogVariablePointer
+    Id: ns=45;g=0276fc2858ea25936b3ee2e7fe58ac00
+    Type: Alias
+    DataType: NodeId
+    DisplayName: {"LocaleId":"","Text":"AnalogVariablePointer"}
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Id: ns=45;g=da3d907e7005a874ca36b64bcebdbc00
+      Type: PropertyType
+      DataType: NodeId
+      DisplayName: {"LocaleId":"","Text":"Kind"}
+      Value: {"Id":2368}
+  - Name: ns=45;ItemDetails
+    Id: ns=45;g=116ed31080831e06df89f46d9bf8335e
+    Type: Rectangle
+    DisplayName: {"LocaleId":"","Text":"ItemDetails"}
+    Children:
+    - Name: Width
+      Id: ns=45;g=a8ac74246d98f4d82b25839a9dd382e6
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"Width"}
+      ModellingRule: Optional
+      Value: 70.0
+    - Name: Height
+      Id: ns=45;g=0795546297aee970ede68277dafb0f6e
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"Height"}
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: HorizontalAlignment
+      Id: ns=45;g=8f54a1e7bf1b15b79fe3969f33092cc3
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      DisplayName: {"LocaleId":"","Text":"HorizontalAlignment"}
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Id: ns=45;g=4c95ca18b8c58782fe9e632341a91b7e
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      DisplayName: {"LocaleId":"","Text":"VerticalAlignment"}
+      ModellingRule: Optional
+      Value: 1
+    - Name: LeftMargin
+      Id: ns=45;g=52452b23024b18bc3a6448072b9dafe5
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"LeftMargin"}
+      ModellingRule: Optional
+      Value: 0.0
+    - Name: BottomMargin
+      Id: ns=45;g=944c3b368603f259eb39aacf20d3d6f4
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"BottomMargin"}
+      ModellingRule: Optional
+      Value: 0.0
+    - Name: FillColor
+      Id: ns=45;g=2f092c9919f9d543abab31cbb8be46fc
+      Type: BaseDataVariableType
+      DataType: Color
+      DisplayName: {"LocaleId":"","Text":"FillColor"}
+      ModellingRule: Optional
+      Value: "#e4e4e4"
+    - Name: ns=45;ItemName
+      Id: ns=45;g=6a4babde68e4aacf37ad0ae31bbf8365
+      Type: Label
+      DisplayName: {"LocaleId":"","Text":"ItemName"}
+      Children:
+      - Name: VerticalAlignment
+        Id: ns=45;g=1b43ad40c3dc25de3636a6fff81a1c63
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        DisplayName: {"LocaleId":"","Text":"VerticalAlignment"}
+        ModellingRule: Optional
+        Value: 2
+      - Name: TextColor
+        Id: ns=45;g=676bc8350a43de79fdbc184abf61cf11
+        Type: BaseDataVariableType
+        DataType: Color
+        DisplayName: {"LocaleId":"","Text":"TextColor"}
+        ModellingRule: Optional
+        Value: "#3b3b3b"
+      - Name: LeftMargin
+        Id: ns=45;g=e432b263889c7a08acff7da362bc164a
+        Type: BaseVariableType
+        DataType: Size
+        DisplayName: {"LocaleId":"","Text":"LeftMargin"}
+        ModellingRule: Optional
+        Value: 10.0
+      - Name: HorizontalAlignment
+        Id: ns=45;g=3cac06811b8d737ac62d98cba18155c6
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        DisplayName: {"LocaleId":"","Text":"HorizontalAlignment"}
+        ModellingRule: Optional
+        Value: 0
+      - Name: Text
+        Id: ns=45;g=36a7355dce1fd6f472c25a100924e11e
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        DisplayName: {"LocaleId":"","Text":"Text"}
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+  - Name: ns=45;HighAlarm
+    Id: ns=45;g=d2bb11064aa6976b7adfd37ace0511fd
+    Type: BaseDataVariableType
+    DataType: Int32
+    DisplayName: {"LocaleId":"","Text":"HighAlarm"}
+    Value: 170
+  - Name: ns=45;LowAlarm
+    Id: ns=45;g=18cc21da385c4653c31a553de088673b
+    Type: BaseDataVariableType
+    DataType: Int32
+    DisplayName: {"LocaleId":"","Text":"LowAlarm"}
+    Value: 30
+- Name: AnalogItem
+  Id: ns=45;g=72001b9a38f4d07ab4edb2f45fad6e30
+  Supertype: Rectangle
+  DisplayName: {"LocaleId":"","Text":"AnalogItem"}
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Id: ns=45;g=32525a8cfb36eedfd50e2ab454817acd
+    Type: BaseVariableType
+    DataType: Size
+    DisplayName: {"LocaleId":"","Text":"Width"}
+    ModellingRule: Optional
+    Value: 110.0
+  - Name: Height
+    Id: ns=45;g=bc5994cf0a42c8b5860b4503e29ad32a
+    Type: BaseVariableType
+    DataType: Size
+    DisplayName: {"LocaleId":"","Text":"Height"}
+    ModellingRule: Optional
+    Value: 55.0
+  - Name: ns=45;InputVariable
+    Id: ns=45;g=3c32a4e4653d6fb57e44c4e5e66546a2
+    Type: Alias
+    DataType: NodeId
+    DisplayName: {"LocaleId":"","Text":"InputVariable"}
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Id: ns=45;g=034ec1c51ac84ec618e053dbbb5020c6
+      Type: PropertyType
+      DataType: NodeId
+      DisplayName: {"LocaleId":"","Text":"Kind"}
+      Value: {"Id":2368}
+  - Name: ns=45;VariableName
+    Id: ns=45;g=9df4b640ca970331ffcb927b195572b5
+    Type: Label
+    DisplayName: {"LocaleId":"","Text":"VariableName"}
+    Children:
+    - Name: Text
+      Id: ns=45;g=e1185852cd1f8d9b7f4199ca9a13aca8
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      DisplayName: {"LocaleId":"","Text":"Text"}
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: TextColor
+      Id: ns=45;g=6c583bfef94a3bb5bcaae5a22cb5cf95
+      Type: BaseDataVariableType
+      DataType: Color
+      DisplayName: {"LocaleId":"","Text":"TextColor"}
+      ModellingRule: Optional
+      Value: "#3b3b3b"
+    - Name: HorizontalAlignment
+      Id: ns=45;g=957ae0770e8f18141d226d2f5d15f677
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      DisplayName: {"LocaleId":"","Text":"HorizontalAlignment"}
+      ModellingRule: Optional
+      Value: 3
+    - Name: TopMargin
+      Id: ns=45;g=d7e19b22f789ba2f7b5c93727d602c1f
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"TopMargin"}
+      ModellingRule: Optional
+      Value: 5.0
+    - Name: LeftMargin
+      Id: ns=45;g=08f0440c7fba9a3ba936bc6d118f2de1
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"LeftMargin"}
+      ModellingRule: Optional
+      Value: 10.0
+    - Name: Elide
+      Id: ns=45;g=ad0f1c8ac7ba92c4ced7bf6c91e00281
+      Type: BaseDataVariableType
+      DataType: ElideEnum
+      DisplayName: {"LocaleId":"","Text":"Elide"}
+      ModellingRule: Optional
+      Value: 3
+    - Name: Width
+      Id: ns=45;g=8999ea73c153c3890918287247116efc
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"Width"}
+      ModellingRule: Optional
+      Value: 90.0
+    - Name: RightMargin
+      Id: ns=45;g=fe2dd8096246abc45e008fb871feb6cd
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"RightMargin"}
+      ModellingRule: Optional
+      Value: 10.0
+  - Name: FillColor
+    Id: ns=45;g=50a0fd1d2744041b0d2fd3eefc9a0fd6
+    Type: BaseDataVariableType
+    DataType: Color
+    DisplayName: {"LocaleId":"","Text":"FillColor"}
+    ModellingRule: Optional
+    Value: "#e4e4e4"
+  - Name: ns=45;Background
+    Id: ns=45;g=b2e123766a2568a2b1ee3cb80dfcd4ab
+    Type: Rectangle
+    DisplayName: {"LocaleId":"","Text":"Background"}
+    Children:
+    - Name: Width
+      Id: ns=45;g=ccac10f75034ce5ffe89b6e6d1e699a5
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"Width"}
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Id: ns=45;g=44579a124d85c1b515ae3064eacb4a8c
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"Height"}
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: HorizontalAlignment
+      Id: ns=45;g=04c509edbeab41b1436f82ffec04d7dc
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      DisplayName: {"LocaleId":"","Text":"HorizontalAlignment"}
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Id: ns=45;g=bd79ce763c7ab56f5ab2599e07bec4db
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      DisplayName: {"LocaleId":"","Text":"VerticalAlignment"}
+      ModellingRule: Optional
+      Value: 3
+    - Name: TopMargin
+      Id: ns=45;g=5801ea8334c8a2170b9ab60931d45c2f
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"TopMargin"}
+      ModellingRule: Optional
+      Value: 25.0
+    - Name: LeftMargin
+      Id: ns=45;g=e09c87385b72b07eb16055798f0fbff7
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"LeftMargin"}
+      ModellingRule: Optional
+      Value: 5.0
+    - Name: RightMargin
+      Id: ns=45;g=1a28f88e8d41ac53359dd73a4c5173d2
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"RightMargin"}
+      ModellingRule: Optional
+      Value: 5.0
+    - Name: BottomMargin
+      Id: ns=45;g=e6f34f24172c316dfd2c04456e1ab6f5
+      Type: BaseVariableType
+      DataType: Size
+      DisplayName: {"LocaleId":"","Text":"BottomMargin"}
+      ModellingRule: Optional
+      Value: 5.0
+    - Name: ns=45;VariableValue
+      Id: ns=45;g=a5a5b3a07947f684aa46ac2be72a4909
+      Type: Label
+      DisplayName: {"LocaleId":"","Text":"VariableValue"}
+      Children:
+      - Name: Text
+        Id: ns=45;g=da0df1b64bfb96e1c44b0777c409b192
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        DisplayName: {"LocaleId":"","Text":"Text"}
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: LeftMargin
+        Id: ns=45;g=c0ddb2d023f6a4a8ad80e59b12016a84
+        Type: BaseVariableType
+        DataType: Size
+        DisplayName: {"LocaleId":"","Text":"LeftMargin"}
+        ModellingRule: Optional
+        Value: 5.0
+      - Name: ns=45;AnalogItem1
+        Id: ns=45;g=11451509bd1b0095b13fd70a1adb0dc3
+        Type: AnalogItemType
+        DataType: Float
+        DisplayName: {"LocaleId":"","Text":"AnalogItem1"}
+        Value: 0.0
+        Children:
+        - Name: EURange
+          Id: ns=45;g=80a4dd1252329a977e8bb09faf9a89a4
+          Type: RangeType
+          DataType: EURange
+          DisplayName: {"LocaleId":"","Text":"EURange"}
+          Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+          Children:
+          - Name: Low
+            Id: ns=45;g=c0b2ba4942d22a803314312dd8dc9f93
+            Type: BaseVariableType
+            DataType: Double
+            DisplayName: {"LocaleId":"","Text":"Low"}
+            ReferenceType: HasProperty
+            Value: 0.0
+          - Name: High
+            Id: ns=45;g=977b403f3d216e8f52a2e768a9a28e91
+            Type: BaseVariableType
+            DataType: Double
+            DisplayName: {"LocaleId":"","Text":"High"}
+            ReferenceType: HasProperty
+            Value: 0.0
+        - Name: EngineeringUnits
+          Id: ns=45;g=ef675bfeca9b539211b6ff299fac9d92
+          Type: EUInformationType
+          DataType: EUInformation
+          DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
+          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Children:
+          - Name: UnitId
+            Id: ns=45;g=e259a3056885dd6eb7a03e9e2135eedc
+            Type: BaseVariableType
+            DataType: Int32
+            DisplayName: {"LocaleId":"","Text":"UnitId"}
+            ReferenceType: HasProperty
+            Value: -1
+          - Name: DisplayName
+            Id: ns=45;g=e2c4ac8206875adb4f63ca0c65be29c9
+            Type: BaseVariableType
+            DataType: LocalizedText
+            DisplayName: {"LocaleId":"","Text":"DisplayName"}
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Description
+            Id: ns=45;g=979ede730fb0599276a4ca348ac8439b
+            Type: BaseVariableType
+            DataType: LocalizedText
+            DisplayName: {"LocaleId":"","Text":"Description"}
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: TextColor
+        Id: ns=45;g=8f04dfe0f1ef565a4232116fe884b72b
+        Type: BaseDataVariableType
+        DataType: Color
+        DisplayName: {"LocaleId":"","Text":"TextColor"}
+        ModellingRule: Optional
+        Value: "#3b3b3b"
+      - Name: VerticalAlignment
+        Id: ns=45;g=473b91f2fbde0bd211e8939be8ec9781
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        DisplayName: {"LocaleId":"","Text":"VerticalAlignment"}
+        ModellingRule: Optional
+        Value: 2
+      - Name: Elide
+        Id: ns=45;g=0ede4ed00a6a3b0910757986125a2221
+        Type: BaseDataVariableType
+        DataType: ElideEnum
+        DisplayName: {"LocaleId":"","Text":"Elide"}
+        ModellingRule: Optional
+        Value: 3
+      - Name: HorizontalAlignment
+        Id: ns=45;g=6cf196caa08c793f1048a030d46dd9c7
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        DisplayName: {"LocaleId":"","Text":"HorizontalAlignment"}
+        ModellingRule: Optional
+        Value: 3
+      - Name: RightMargin
+        Id: ns=45;g=848216441307159df9f538e04bd1186d
+        Type: BaseVariableType
+        DataType: Size
+        DisplayName: {"LocaleId":"","Text":"RightMargin"}
+        ModellingRule: Optional
+        Value: 5.0
+- File: UserEditor/UserEditor.yaml

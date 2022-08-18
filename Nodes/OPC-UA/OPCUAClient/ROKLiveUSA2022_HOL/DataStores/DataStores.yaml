@@ -1,0 +1,520 @@
+Name: ns=45;DataStores
+Id: ns=45;g=2c1db71d4d447853771477e8961aa9fc
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"DataStores"}
+Children:
+- Name: ns=45;EmbeddedDatabase
+  Id: ns=45;g=11e3e6483d2deb390fadeba8503310eb
+  Type: SQLiteStore
+  DisplayName: {"LocaleId":"","Text":"EmbeddedDatabase"}
+  Children:
+  - Name: Tables
+    Id: ns=45;g=3eb701946c0713f0e8e557cb06f08535
+    Type: BaseObjectType
+    DisplayName: {"LocaleId":"","Text":"Tables"}
+    Children:
+    - Name: ns=45;DataLogger
+      Id: ns=45;g=68b8331da52c8986dfdf7aaf5d3ee987
+      Type: SQLiteStoreTable
+      DisplayName: {"LocaleId":"","Text":"DataLogger"}
+      Children:
+      - Class: Reference
+        Target: ns=54;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=54;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=54;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=54;i=20
+        Direction: Forward
+      - Name: Columns
+        Id: ns=45;g=26dac82291f28a6669172cfc99439f9e
+        Type: BaseObjectType
+        DisplayName: {"LocaleId":"","Text":"Columns"}
+        Children:
+        - Name: ns=45;Timestamp
+          Id: ns=45;g=c3638b2b86da4da31e820057d9f25294
+          Type: StoreColumn
+          DataType: UtcTime
+          DisplayName: {"LocaleId":"","Text":"Timestamp"}
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: ns=45;flowMeter
+          Id: ns=45;g=0bd2d498fdb3ba4d84f1779cc20c59f6
+          Type: StoreColumn
+          DataType: Float
+          DisplayName: {"LocaleId":"","Text":"flowMeter"}
+          Value: 0.0
+        - Name: ns=45;temperatureSensor
+          Id: ns=45;g=0e56f4ffa2500c6ef882f45955f7f036
+          Type: StoreColumn
+          DataType: Float
+          DisplayName: {"LocaleId":"","Text":"temperatureSensor"}
+          Value: 0.0
+        - Name: ns=45;levelProbe
+          Id: ns=45;g=39a33a49664a134d4aa4e01e9ecfa553
+          Type: StoreColumn
+          DataType: Float
+          DisplayName: {"LocaleId":"","Text":"levelProbe"}
+          Value: 0.0
+        - Name: ns=45;flowMeter1
+          Id: ns=45;g=301ca544467aba5b82d6b07b5138f7c0
+          Type: StoreColumn
+          DataType: Float
+          DisplayName: {"LocaleId":"","Text":"flowMeter1"}
+          Value: 0.0
+        - Name: ns=45;pressureSensor
+          Id: ns=45;g=0a59f5bfabd00bbb1756f6a03d506729
+          Type: StoreColumn
+          DataType: Float
+          DisplayName: {"LocaleId":"","Text":"pressureSensor"}
+          Value: 0.0
+        - Name: ns=45;velocity
+          Id: ns=45;g=cd78cb76f15db70899615fee7690a305
+          Type: StoreColumn
+          DataType: Float
+          DisplayName: {"LocaleId":"","Text":"velocity"}
+          Value: 0.0
+        - Name: ns=45;current
+          Id: ns=45;g=002a02c51fee0327bf9d407b62c16eb8
+          Type: StoreColumn
+          DataType: Float
+          DisplayName: {"LocaleId":"","Text":"current"}
+          Value: 0.0
+        - Name: ns=45;LocalTimestamp
+          Id: ns=45;g=475f2dd65d49329abef426f0dca81c0c
+          Type: StoreColumn
+          DataType: DateTime
+          DisplayName: {"LocaleId":"","Text":"LocalTimestamp"}
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: ns=45;Id
+          Id: ns=45;g=4ebb5223387a65d133a8bfdaee2bcd11
+          Type: StoreColumn
+          DataType: UInt64
+          DisplayName: {"LocaleId":"","Text":"Id"}
+          Value: 0
+    - Name: ns=45;AlarmsEventLogger1
+      Id: ns=45;g=04d8139591c02ee6e42389458cf695ed
+      Type: SQLiteStoreTable
+      DisplayName: {"LocaleId":"","Text":"AlarmsEventLogger1"}
+      Children:
+      - Class: Reference
+        Target: ns=54;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=54;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=54;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=54;i=20
+        Direction: Forward
+      - Name: Columns
+        Id: ns=45;g=55d7ec113b524e7c84ad2bd374f165cd
+        Type: BaseObjectType
+        DisplayName: {"LocaleId":"","Text":"Columns"}
+        Children:
+        - Name: ns=45;ActiveState_Id
+          Id: ns=45;g=97c5f88b482d5290d2a2c8a4a34c364b
+          Type: StoreColumn
+          DataType: Boolean
+          DisplayName: {"LocaleId":"","Text":"ActiveState_Id"}
+          Value: false
+        - Name: ns=45;AckedState_Id
+          Id: ns=45;g=6f3286e7ab89d87f2ebc2796579667e3
+          Type: StoreColumn
+          DataType: Boolean
+          DisplayName: {"LocaleId":"","Text":"AckedState_Id"}
+          Value: false
+        - Name: ns=45;ConfirmedState_Id
+          Id: ns=45;g=2490cb234bcd68fd7365fc9513f30310
+          Type: StoreColumn
+          DataType: Boolean
+          DisplayName: {"LocaleId":"","Text":"ConfirmedState_Id"}
+          Value: false
+        - Name: ns=45;ConditionName
+          Id: ns=45;g=7a87cc815a63b222d8d0df96e6294b0d
+          Type: StoreColumn
+          DataType: String
+          DisplayName: {"LocaleId":"","Text":"ConditionName"}
+          Value: ""
+        - Name: ns=45;EnabledState_Id
+          Id: ns=45;g=dddf282e043f85ee343ec5043e2f22ca
+          Type: StoreColumn
+          DataType: Boolean
+          DisplayName: {"LocaleId":"","Text":"EnabledState_Id"}
+          Value: false
+        - Name: ns=45;SourceName
+          Id: ns=45;g=90883fe840225cc9b3368b586fa44740
+          Type: StoreColumn
+          DataType: String
+          DisplayName: {"LocaleId":"","Text":"SourceName"}
+          Value: ""
+        - Name: ns=45;Time
+          Id: ns=45;g=25d2602fb3ee20de8d9b9de5bcbd093f
+          Type: StoreColumn
+          DataType: UtcTime
+          DisplayName: {"LocaleId":"","Text":"Time"}
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: 'ns=45;Message_en-US'
+          Id: ns=45;g=c4f544df83657df004d3f15ea559721f
+          Type: StoreColumn
+          DataType: String
+          DisplayName: {"LocaleId":"","Text":"Message_en-US"}
+          Value: ""
+        - Name: 'ns=45;Message_it-IT'
+          Id: ns=45;g=12bdda060d164ac4e4bfd60d29c1aa22
+          Type: StoreColumn
+          DataType: String
+          DisplayName: {"LocaleId":"","Text":"Message_it-IT"}
+          Value: ""
+        - Name: 'ns=45;Message_zh-CN'
+          Id: ns=45;g=d185557bea6d9a13c15e3123fd34da30
+          Type: StoreColumn
+          DataType: String
+          DisplayName: {"LocaleId":"","Text":"Message_zh-CN"}
+          Value: ""
+        - Name: ns=45;Severity
+          Id: ns=45;g=18bdac85cf1e2dae9416ce14fef62a0c
+          Type: StoreColumn
+          DataType: UInt16
+          DisplayName: {"LocaleId":"","Text":"Severity"}
+          Value: 0
+        - Name: ns=45;LocalTime
+          Id: ns=45;g=fa201065eb63f5b8d724dd8523d7c966
+          Type: StoreColumn
+          DataType: DateTime
+          DisplayName: {"LocaleId":"","Text":"LocalTime"}
+          Value: "1601-01-01T00:00:00.0000000"
+    - Name: ns=45;RecipeSchema
+      Id: ns=45;g=78e50a99c07933a857fca864d53e72e4
+      Type: SQLiteStoreTable
+      DisplayName: {"LocaleId":"","Text":"RecipeSchema"}
+      Children:
+      - Class: Reference
+        Target: ns=54;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=54;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=54;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=54;i=20
+        Direction: Forward
+      - Name: Columns
+        Id: ns=45;g=9e3cc0cf5d75d7b0db166b9505f1b9a9
+        Type: BaseObjectType
+        DisplayName: {"LocaleId":"","Text":"Columns"}
+        Children:
+        - Name: ns=45;Name
+          Id: ns=45;g=b9bac11417974411a80540f695bd1943
+          Type: StoreColumn
+          DataType: String
+          DisplayName: {"LocaleId":"","Text":"Name"}
+          Value: ""
+    - Name: ns=45;FillerRecipe
+      Id: ns=45;g=d87631b6a4f337e78f0f1292400b6357
+      Type: SQLiteStoreTable
+      DisplayName: {"LocaleId":"","Text":"FillerRecipe"}
+      Children:
+      - Class: Reference
+        Target: ns=54;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=54;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=54;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=54;i=20
+        Direction: Forward
+      - Name: Columns
+        Id: ns=45;g=fa1189622c7653fa3b8d3b1cc3435844
+        Type: BaseObjectType
+        DisplayName: {"LocaleId":"","Text":"Columns"}
+        Children:
+        - Name: ns=45;Name
+          Id: ns=45;g=be5371a97f89030456e5fb71267ffa48
+          Type: StoreColumn
+          DataType: String
+          DisplayName: {"LocaleId":"","Text":"Name"}
+          Value: ""
+        - Name: ns=45;/FillerHeads/FillerHead1/bottleClampPressureSetpoint
+          Id: ns=45;g=1295b477c993f335a665c6603b3b7007
+          Type: StoreColumn
+          DataType: Int32
+          DisplayName: {"LocaleId":"","Text":"/FillerHeads/FillerHead1/bottleClampPressureSetpoint"}
+          Value: 0
+        - Name: ns=45;/FillerHeads/FillerHead1/bottleSlowFillSetpoint
+          Id: ns=45;g=0413ab09f25ced5f522492bf6c0b81f5
+          Type: StoreColumn
+          DataType: Int32
+          DisplayName: {"LocaleId":"","Text":"/FillerHeads/FillerHead1/bottleSlowFillSetpoint"}
+          Value: 0
+        - Name: ns=45;/FillerHeads/FillerHead1/bottleStopFillSetpoint
+          Id: ns=45;g=56c20ec203907a391e9e28cbe7c32290
+          Type: StoreColumn
+          DataType: Int32
+          DisplayName: {"LocaleId":"","Text":"/FillerHeads/FillerHead1/bottleStopFillSetpoint"}
+          Value: 0
+        - Name: ns=45;/FillerHeads/FillerHead2/bottleClampPressureSetpoint
+          Id: ns=45;g=94a4cec658366e37343299bf52d77a8b
+          Type: StoreColumn
+          DataType: Int32
+          DisplayName: {"LocaleId":"","Text":"/FillerHeads/FillerHead2/bottleClampPressureSetpoint"}
+          Value: 0
+        - Name: ns=45;/FillerHeads/FillerHead2/bottleSlowFillSetpoint
+          Id: ns=45;g=4902330f67c9125efaac3f932af4715c
+          Type: StoreColumn
+          DataType: Int32
+          DisplayName: {"LocaleId":"","Text":"/FillerHeads/FillerHead2/bottleSlowFillSetpoint"}
+          Value: 0
+        - Name: ns=45;/FillerHeads/FillerHead2/bottleStopFillSetpoint
+          Id: ns=45;g=5319e6b96a1f0e96a4add456f561b06e
+          Type: StoreColumn
+          DataType: Int32
+          DisplayName: {"LocaleId":"","Text":"/FillerHeads/FillerHead2/bottleStopFillSetpoint"}
+          Value: 0
+        - Name: ns=45;/FillerHeads/FillerHead3/bottleClampPressureSetpoint
+          Id: ns=45;g=db909e44e81811c0d6d96993c27b177e
+          Type: StoreColumn
+          DataType: Int32
+          DisplayName: {"LocaleId":"","Text":"/FillerHeads/FillerHead3/bottleClampPressureSetpoint"}
+          Value: 0
+        - Name: ns=45;/FillerHeads/FillerHead3/bottleSlowFillSetpoint
+          Id: ns=45;g=d7c2ceeb49e74004750852e5a1156891
+          Type: StoreColumn
+          DataType: Int32
+          DisplayName: {"LocaleId":"","Text":"/FillerHeads/FillerHead3/bottleSlowFillSetpoint"}
+          Value: 0
+        - Name: ns=45;/FillerHeads/FillerHead3/bottleStopFillSetpoint
+          Id: ns=45;g=f41cbbb22f4ae7691cb909c98a9c448e
+          Type: StoreColumn
+          DataType: Int32
+          DisplayName: {"LocaleId":"","Text":"/FillerHeads/FillerHead3/bottleStopFillSetpoint"}
+          Value: 0
+    - Name: ns=45;AlarmsEventLogger
+      Id: ns=45;g=6f8b8d032276a6c523afa10a6c6d85b4
+      Type: SQLiteStoreTable
+      DisplayName: {"LocaleId":"","Text":"AlarmsEventLogger"}
+      Children:
+      - Class: Reference
+        Target: ns=54;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=54;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=54;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=54;i=20
+        Direction: Forward
+      - Name: Columns
+        Id: ns=45;g=0e7a39b2d0f6ecf793e42cd985688bb7
+        Type: BaseObjectType
+        DisplayName: {"LocaleId":"","Text":"Columns"}
+        Children:
+        - Name: ns=45;ActiveState_Id
+          Id: ns=45;g=a329f32270457938535ae1fee74333e8
+          Type: StoreColumn
+          DataType: Boolean
+          DisplayName: {"LocaleId":"","Text":"ActiveState_Id"}
+          Value: false
+        - Name: ns=45;AckedState_Id
+          Id: ns=45;g=a1ef07e565d3636ef73462cfd7f3f5c9
+          Type: StoreColumn
+          DataType: Boolean
+          DisplayName: {"LocaleId":"","Text":"AckedState_Id"}
+          Value: false
+        - Name: ns=45;ConfirmedState_Id
+          Id: ns=45;g=0ffcd70643260a21526a35685dc7effa
+          Type: StoreColumn
+          DataType: Boolean
+          DisplayName: {"LocaleId":"","Text":"ConfirmedState_Id"}
+          Value: false
+        - Name: ns=45;ConditionName
+          Id: ns=45;g=a5017c99f8e362ef33e98dc2ad18fa3a
+          Type: StoreColumn
+          DataType: String
+          DisplayName: {"LocaleId":"","Text":"ConditionName"}
+          Value: ""
+        - Name: ns=45;EnabledState_Id
+          Id: ns=45;g=8f80ab2748a78025f1074e7de7cd0195
+          Type: StoreColumn
+          DataType: Boolean
+          DisplayName: {"LocaleId":"","Text":"EnabledState_Id"}
+          Value: false
+        - Name: ns=45;SourceName
+          Id: ns=45;g=ce8c7a9876f5360303e3d49c9782b8f3
+          Type: StoreColumn
+          DataType: String
+          DisplayName: {"LocaleId":"","Text":"SourceName"}
+          Value: ""
+        - Name: ns=45;Time
+          Id: ns=45;g=d75170a36cfc25a2b637d53a4a6352c9
+          Type: StoreColumn
+          DataType: UtcTime
+          DisplayName: {"LocaleId":"","Text":"Time"}
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: 'ns=45;Message_en-US'
+          Id: ns=45;g=40e8373917fe0c08c71066f8c2d1e779
+          Type: StoreColumn
+          DataType: String
+          DisplayName: {"LocaleId":"","Text":"Message_en-US"}
+          Value: ""
+        - Name: 'ns=45;Message_it-IT'
+          Id: ns=45;g=4ab01f607b073ca702c00a3e966b7c82
+          Type: StoreColumn
+          DataType: String
+          DisplayName: {"LocaleId":"","Text":"Message_it-IT"}
+          Value: ""
+        - Name: 'ns=45;Message_zh-CN'
+          Id: ns=45;g=b260cf358b90f3b23e70ad113a824f61
+          Type: StoreColumn
+          DataType: String
+          DisplayName: {"LocaleId":"","Text":"Message_zh-CN"}
+          Value: ""
+        - Name: ns=45;Severity
+          Id: ns=45;g=f156fd30dd43eb6398784263ac10c86a
+          Type: StoreColumn
+          DataType: UInt16
+          DisplayName: {"LocaleId":"","Text":"Severity"}
+          Value: 0
+        - Name: ns=45;LocalTime
+          Id: ns=45;g=3382e184233b560636159c8a3ad72f6a
+          Type: StoreColumn
+          DataType: DateTime
+          DisplayName: {"LocaleId":"","Text":"LocalTime"}
+          Value: "1601-01-01T00:00:00.0000000"
+  - Class: Reference
+    Target: ns=56;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=56;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Id: ns=45;g=4cb1b3cb2bc614af1aecc597075445aa
+    Type: BaseDataVariableType
+    DataType: UInt32
+    DisplayName: {"LocaleId":"","Text":"MaxColumnNameLength"}
+    Value: 1024
+  - Name: MaxColumnCount
+    Id: ns=45;g=73063e4eeb31357e3ebef2116f8d591d
+    Type: BaseDataVariableType
+    DataType: UInt32
+    DisplayName: {"LocaleId":"","Text":"MaxColumnCount"}
+    Value: 2000
+  - Name: DataTypeCompatibilityMap
+    Id: ns=45;g=5d6e6268f7d094976bda4434df57a13c
+    Type: BaseDataVariableType
+    DataType: NodeId
+    DisplayName: {"LocaleId":"","Text":"DataTypeCompatibilityMap"}
+    ValueRank: OneOrMoreDimensions
+    Value: 
+     {
+      "Type": 17,
+      "Dimensions": [11,2],
+      "Body": [
+       {
+        "Id": 8
+       },{
+        "Id": 1
+       },
+       {
+        "Id": 8
+       },{
+        "Id": 3
+       },
+       {
+        "Id": 8
+       },{
+        "Id": 2
+       },
+       {
+        "Id": 8
+       },{
+        "Id": 4
+       },
+       {
+        "Id": 8
+       },{
+        "Id": 5
+       },
+       {
+        "Id": 8
+       },{
+        "Id": 6
+       },
+       {
+        "Id": 8
+       },{
+        "Id": 7
+       },
+       {
+        "Id": 8
+       },{
+        "Id": 9
+       },
+       {
+        "Id": 11
+       },{
+        "Id": 10
+       },
+       {
+        "Id": 11
+       },{
+        "Id": 290
+       },
+       {
+        "Id": 13
+       },{
+        "Id": 294
+       }
+      ]
+     }
+  - Name: Status
+    Id: ns=45;g=f4893c8926fc2c8337417a5c8b8d7362
+    Type: PropertyType
+    DataType: StoreStatus
+    DisplayName: {"LocaleId":"","Text":"Status"}
+    Value: 1
+  - Class: Reference
+    Target: ns=54;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=54;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=54;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=54;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=54;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=54;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=54;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=54;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=54;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=54;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=54;i=59
+    Direction: Forward

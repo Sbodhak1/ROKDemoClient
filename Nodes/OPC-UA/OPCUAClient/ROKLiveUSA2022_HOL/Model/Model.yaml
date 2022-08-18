@@ -1,0 +1,10 @@
+Name: ns=45;Model
+Id: ns=45;g=b19445d58d20875d50c29369f550fac5
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"Model"}
+Children:
+- File: Tank/Tank.yaml
+- File: Separator/Separator.yaml
+- File: FillerHeads/FillerHeads.yaml
+- File: CapperHead/CapperHead.yaml
+- File: AlarmsVariables/AlarmsVariables.yaml

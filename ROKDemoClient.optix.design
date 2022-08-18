@@ -1,0 +1,98 @@
+Project:
+ Name: ROKDemoClient_Design
+ ProjectNamespaceIndex: 23
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ ProductVersion: 1.0
+ CoreVersion: 1.0
+ Dependencies:
+  2:
+   Uri: ROKDemoClient
+   RelativePath: ROKDemoClient.optix
+  3:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#BoilerDemo'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  4:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#urn:ASPC553.asem.intra:UnifiedAutomation:UaDemoServerAnsiC'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  5:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#http://opcfoundation.org/UA/DI/'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  6:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#http://PLCopen.org/OpcUa/IEC61131-3/'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  7:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#http://www.unifiedautomation.com/DemoServer/'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  8:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#urn:ASPC476:FactoryTalkOptixHMI:FTOptixApplication'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  9:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#Temporary'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  10:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#9f78eb2f1f373feb2ad5ccb7e29a5e21#urn:ASPC553.asem.intra:UnifiedAutomation:UaDemoServerAnsiC'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  11:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#9f78eb2f1f373feb2ad5ccb7e29a5e21#http://opcfoundation.org/UA/DI/'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  12:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#9f78eb2f1f373feb2ad5ccb7e29a5e21#http://PLCopen.org/OpcUa/IEC61131-3/'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  13:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#9f78eb2f1f373feb2ad5ccb7e29a5e21#http://www.unifiedautomation.com/DemoServer/'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  14:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#urn:ASPC457:FactoryTalkOptixHMI:FTOptixApplication'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  15:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#BoilerDemo_Full'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  16:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#9f78eb2f1f373feb2ad5ccb7e29a5e21#urn:ASPC508.asem.intra:UnifiedAutomation:UaDemoServerAnsiC'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  17:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#9f78eb2f1f373feb2ad5ccb7e29a5e21#urn:bm100:UnifiedAutomation:UaDemoServerAnsiC'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  18:
+   Uri: 'urn:FTOptix:CoreBase'
+   Module: FTOptix.CoreBase
+   Version: 1.0
+  19:
+   Uri: 'urn:FTOptix:CoreBase:Net'
+   Module: FTOptix.CoreBase.Net
+   Version: 1.0
+  20:
+   Uri: 'urn:FTOptix:TagImporter'
+   Module: FTOptix.TagImporter
+   Version: 1.0
+  21:
+   Uri: 'urn:FTOptix:OPCUAImporter'
+   Module: FTOptix.OPCUAImporter
+   Version: 1.0
+  22:
+   Uri: 'urn:FTOptix:NetLogic'
+   Module: FTOptix.NetLogic
+   Version: 1.0
+  24:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#84a2165c4f553094409cb3d3a9ffb33d#http://opcfoundation.org/UA/DI/'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  25:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#84a2165c4f553094409cb3d3a9ffb33d#http://www.unifiedautomation.com/DemoServer/'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  26:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#urn:FH887G3:FactoryTalkOptixHMI:FTOptixApplication'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  27:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#ROKLiveUSA2022_HOL'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  28:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#84a2165c4f553094409cb3d3a9ffb33d#urn:FH887G3:UnifiedAutomation:UaDemoServerAnsiC'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  29:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#84a2165c4f553094409cb3d3a9ffb33d#http://PLCopen.org/OpcUa/IEC61131-3/'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+ Nodes:
+ - File: 'DesignTimeNodes/OPC-UA/OPCUAClient/OPCUATagImporter.yaml'

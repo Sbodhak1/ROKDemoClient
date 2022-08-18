@@ -1,0 +1,237 @@
+Name: ns=45;Separator
+Id: ns=45;g=941dd43588cb2d4148b59702cf944949
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"Separator"}
+Children:
+- Name: ns=45;flowMeter
+  Id: ns=45;g=9b3de5c3c6e17d9bd44fc2f865cbb2a6
+  Type: AnalogItemType
+  DataType: Float
+  DisplayName: {"LocaleId":"en-US","Text":"FI102"}
+  Value: 8.0
+  Children:
+  - Name: EURange
+    Id: ns=45;g=847df0189c5fe1396895bdbe2736a991
+    Type: RangeType
+    DataType: EURange
+    DisplayName: {"LocaleId":"","Text":"EURange"}
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":15.0}}
+    Children:
+    - Name: Low
+      Id: ns=45;g=83542081974d0622b09fec92b3458f2e
+      Type: BaseVariableType
+      DataType: Double
+      DisplayName: {"LocaleId":"","Text":"Low"}
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Id: ns=45;g=da0488540d16387ac502b7746c7e366f
+      Type: BaseVariableType
+      DataType: Double
+      DisplayName: {"LocaleId":"","Text":"High"}
+      ReferenceType: HasProperty
+      Value: 15.0
+  - Name: EngineeringUnits
+    Id: ns=45;g=e7ceb05909fc16a97fcf19b3ef789dbb
+    Type: EUInformationType
+    DataType: EUInformation
+    DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
+    Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"http://opcfoundation.org/UA/","unitId":5067080,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+    Children:
+    - Name: UnitId
+      Id: ns=45;g=53953e108b28511d3d7d1dafdafae317
+      Type: BaseVariableType
+      DataType: Int32
+      DisplayName: {"LocaleId":"","Text":"UnitId"}
+      ReferenceType: HasProperty
+      Value: 5067080
+    - Name: DisplayName
+      Id: ns=45;g=8aaf479797a537317894ad02a54acafd
+      Type: BaseVariableType
+      DataType: LocalizedText
+      DisplayName: {"LocaleId":"","Text":"DisplayName"}
+      ReferenceType: HasProperty
+      Value: {"LocaleId":"en-US","Text":"m³/h"}
+    - Name: Description
+      Id: ns=45;g=b3ce6f0169422ca4ba7cb5306d3c44a3
+      Type: BaseVariableType
+      DataType: LocalizedText
+      DisplayName: {"LocaleId":"","Text":"Description"}
+      ReferenceType: HasProperty
+      Value: {"LocaleId":"en-US","Text":"cubic meter per hour"}
+- Name: ns=45;pressureSensor
+  Id: ns=45;g=465377fd26080799e2b2c8f56aaafc42
+  Type: AnalogItemType
+  DataType: Float
+  DisplayName: {"LocaleId":"en-US","Text":"PI102"}
+  Value: 51.0
+  Children:
+  - Name: EURange
+    Id: ns=45;g=8bf1666f7f5426480ce0c0e4cf79b7ca
+    Type: RangeType
+    DataType: EURange
+    DisplayName: {"LocaleId":"","Text":"EURange"}
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":15.0}}
+    Children:
+    - Name: Low
+      Id: ns=45;g=11ca454b4ea79e3194cb31f5db66a79b
+      Type: BaseVariableType
+      DataType: Double
+      DisplayName: {"LocaleId":"","Text":"Low"}
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Id: ns=45;g=be42f668ab3b4ba07d0243c9c92488cd
+      Type: BaseVariableType
+      DataType: Double
+      DisplayName: {"LocaleId":"","Text":"High"}
+      ReferenceType: HasProperty
+      Value: 15.0
+  - Name: EngineeringUnits
+    Id: ns=45;g=c0f7231a9ee3389eb36330b09e85100b
+    Type: EUInformationType
+    DataType: EUInformation
+    DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
+    Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"http://opcfoundation.org/UA/","unitId":4342098,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+    Children:
+    - Name: UnitId
+      Id: ns=45;g=9e0aa06292bbe7ed11d0ae1f28ba0e1e
+      Type: BaseVariableType
+      DataType: Int32
+      DisplayName: {"LocaleId":"","Text":"UnitId"}
+      ReferenceType: HasProperty
+      Value: 4342098
+    - Name: DisplayName
+      Id: ns=45;g=5b578a288d5eb3aba13e6e973c795b76
+      Type: BaseVariableType
+      DataType: LocalizedText
+      DisplayName: {"LocaleId":"","Text":"DisplayName"}
+      ReferenceType: HasProperty
+      Value: {"LocaleId":"en-US","Text":"bar"}
+    - Name: Description
+      Id: ns=45;g=3010a6b6b7b660520578b8ecd96a6a5f
+      Type: BaseVariableType
+      DataType: LocalizedText
+      DisplayName: {"LocaleId":"","Text":"Description"}
+      ReferenceType: HasProperty
+      Value: {"LocaleId":"en-US","Text":"bar [unit of pressure]"}
+- Name: ns=45;velocity
+  Id: ns=45;g=afc0ff369b66b8b19b73f3bcb2f898d1
+  Type: AnalogItemType
+  DataType: Float
+  DisplayName: {"LocaleId":"en-US","Text":"VI101"}
+  Value: 60.0
+  Children:
+  - Name: EURange
+    Id: ns=45;g=42d5d0fe610a785f3509d059fb0b338a
+    Type: RangeType
+    DataType: EURange
+    DisplayName: {"LocaleId":"","Text":"EURange"}
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":6000.0}}
+    Children:
+    - Name: Low
+      Id: ns=45;g=118a353af89d6ee8a3d1f3ee63d78a8e
+      Type: BaseVariableType
+      DataType: Double
+      DisplayName: {"LocaleId":"","Text":"Low"}
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Id: ns=45;g=c83f86f3c8b7ff0b9a4ba0470488845c
+      Type: BaseVariableType
+      DataType: Double
+      DisplayName: {"LocaleId":"","Text":"High"}
+      ReferenceType: HasProperty
+      Value: 6000.0
+  - Name: EngineeringUnits
+    Id: ns=45;g=00ee0ec21adb80564012659dee008dc3
+    Type: EUInformationType
+    DataType: EUInformation
+    DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
+    Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"http://opcfoundation.org/UA/","unitId":5394509,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+    Children:
+    - Name: UnitId
+      Id: ns=45;g=221f2209c677bfbf03dc8ddf50f33321
+      Type: BaseVariableType
+      DataType: Int32
+      DisplayName: {"LocaleId":"","Text":"UnitId"}
+      ReferenceType: HasProperty
+      Value: 5394509
+    - Name: DisplayName
+      Id: ns=45;g=e8d83d141ea998eb5b7ba579d8314bd0
+      Type: BaseVariableType
+      DataType: LocalizedText
+      DisplayName: {"LocaleId":"","Text":"DisplayName"}
+      ReferenceType: HasProperty
+      Value: {"LocaleId":"en-US","Text":"r/min"}
+    - Name: Description
+      Id: ns=45;g=9fe2490e9e7673c1130b973e2c7570ab
+      Type: BaseVariableType
+      DataType: LocalizedText
+      DisplayName: {"LocaleId":"","Text":"Description"}
+      ReferenceType: HasProperty
+      Value: {"LocaleId":"en-US","Text":"revolution per minute"}
+- Name: ns=45;current
+  Id: ns=45;g=784621451ecc5190b50fcac962139f9d
+  Type: AnalogItemType
+  DataType: Float
+  DisplayName: {"LocaleId":"en-US","Text":"II101"}
+  Value: 30.0
+  Children:
+  - Name: EURange
+    Id: ns=45;g=c4540b6a4079e697365cbf2d066b5c74
+    Type: RangeType
+    DataType: EURange
+    DisplayName: {"LocaleId":"","Text":"EURange"}
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":15.0}}
+    Children:
+    - Name: Low
+      Id: ns=45;g=44ed104ca0f37b26b086e83ab74a272b
+      Type: BaseVariableType
+      DataType: Double
+      DisplayName: {"LocaleId":"","Text":"Low"}
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Id: ns=45;g=2bcd2838f2bf234ca6d3dc3d6467dede
+      Type: BaseVariableType
+      DataType: Double
+      DisplayName: {"LocaleId":"","Text":"High"}
+      ReferenceType: HasProperty
+      Value: 15.0
+  - Name: EngineeringUnits
+    Id: ns=45;g=8ed6bb4fd1f366be557d69b59d8907dd
+    Type: EUInformationType
+    DataType: EUInformation
+    DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
+    Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"http://opcfoundation.org/UA/","unitId":4279632,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+    Children:
+    - Name: UnitId
+      Id: ns=45;g=2850d6da94801a3dc1b6336925c566e8
+      Type: BaseVariableType
+      DataType: Int32
+      DisplayName: {"LocaleId":"","Text":"UnitId"}
+      ReferenceType: HasProperty
+      Value: 4279632
+    - Name: DisplayName
+      Id: ns=45;g=f81e2d5f36d1c9dbe4a3c1450b316fa4
+      Type: BaseVariableType
+      DataType: LocalizedText
+      DisplayName: {"LocaleId":"","Text":"DisplayName"}
+      ReferenceType: HasProperty
+      Value: {"LocaleId":"en-US","Text":"A"}
+    - Name: Description
+      Id: ns=45;g=c984dfafaad2b012a211021c7c95dc8d
+      Type: BaseVariableType
+      DataType: LocalizedText
+      DisplayName: {"LocaleId":"","Text":"Description"}
+      ReferenceType: HasProperty
+      Value: {"LocaleId":"en-US","Text":"ampere"}
+- Name: ns=45;statusArray
+  Id: ns=45;g=30af5d6d3a84ca73793883854ab5c529
+  Type: BaseDataVariableType
+  DataType: Boolean
+  DisplayName: {"LocaleId":"","Text":"statusArray"}
+  ValueRank: OneDimension
+  ArrayDimensions: [32]
+  Value: [false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]

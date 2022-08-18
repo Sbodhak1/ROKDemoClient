@@ -1,0 +1,221 @@
+Name: ns=45;Tank
+Id: ns=45;g=bb6f4ad7bd1c87dea8f1c3154ce3ec35
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"Tank"}
+Children:
+- Name: ns=45;flowMeter
+  Id: ns=45;g=6b915454a9129d8190b0d5f2088ac130
+  Type: AnalogItemType
+  DataType: Float
+  DisplayName: {"LocaleId":"en-US","Text":"FI101"}
+  Value: 15.0
+  Children:
+  - Name: EURange
+    Id: ns=45;g=0d056d95745746288610a36d59139446
+    Type: RangeType
+    DataType: EURange
+    DisplayName: {"LocaleId":"","Text":"EURange"}
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":15.0}}
+    Children:
+    - Name: Low
+      Id: ns=45;g=32d56fd8ea52e74b4bc00d804a6c4c58
+      Type: BaseVariableType
+      DataType: Double
+      DisplayName: {"LocaleId":"","Text":"Low"}
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Id: ns=45;g=15d76689a0ab503e223e02979fac0812
+      Type: BaseVariableType
+      DataType: Double
+      DisplayName: {"LocaleId":"","Text":"High"}
+      ReferenceType: HasProperty
+      Value: 15.0
+  - Name: EngineeringUnits
+    Id: ns=45;g=538cf3dcefe7f11c23e0c4d9f8599500
+    Type: EUInformationType
+    DataType: EUInformation
+    DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
+    Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"http://opcfoundation.org/UA/","unitId":5067080,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+    Children:
+    - Name: UnitId
+      Id: ns=45;g=a9fbe0a0a67267661b48c8c26e7ad5a2
+      Type: BaseVariableType
+      DataType: Int32
+      DisplayName: {"LocaleId":"","Text":"UnitId"}
+      ReferenceType: HasProperty
+      Value: 5067080
+    - Name: DisplayName
+      Id: ns=45;g=a34f0024da02b822089e771a92ffa569
+      Type: BaseVariableType
+      DataType: LocalizedText
+      DisplayName: {"LocaleId":"","Text":"DisplayName"}
+      ReferenceType: HasProperty
+      Value: {"LocaleId":"en-US","Text":"m³/h"}
+    - Name: Description
+      Id: ns=45;g=05ee90340f68b51db0abd4e5ef56683d
+      Type: BaseVariableType
+      DataType: LocalizedText
+      DisplayName: {"LocaleId":"","Text":"Description"}
+      ReferenceType: HasProperty
+      Value: {"LocaleId":"en-US","Text":"cubic meter per hour"}
+- Name: ns=45;temperatureSensor
+  Id: ns=45;g=449a09a6d7a109dd3e616c16379a2c6c
+  Type: AnalogItemType
+  DataType: Float
+  DisplayName: {"LocaleId":"en-US","Text":"TI101"}
+  Value: 16.0
+  Children:
+  - Name: EURange
+    Id: ns=45;g=4a8e3546c1e50c3f03da38e22f4b057a
+    Type: RangeType
+    DataType: EURange
+    DisplayName: {"LocaleId":"","Text":"EURange"}
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":120.0}}
+    Children:
+    - Name: Low
+      Id: ns=45;g=31bb9f6c68ee736c2f4d8510cda4b582
+      Type: BaseVariableType
+      DataType: Double
+      DisplayName: {"LocaleId":"","Text":"Low"}
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Id: ns=45;g=a621e798ed3d71ccab53ce840e76f14c
+      Type: BaseVariableType
+      DataType: Double
+      DisplayName: {"LocaleId":"","Text":"High"}
+      ReferenceType: HasProperty
+      Value: 120.0
+  - Name: EngineeringUnits
+    Id: ns=45;g=10f6b75bc0068ebc87dbcad4043f74fb
+    Type: EUInformationType
+    DataType: EUInformation
+    DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
+    Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"http://opcfoundation.org/UA/","unitId":4408652,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+    Children:
+    - Name: UnitId
+      Id: ns=45;g=dcb296105fff719874bba36b0a40279d
+      Type: BaseVariableType
+      DataType: Int32
+      DisplayName: {"LocaleId":"","Text":"UnitId"}
+      ReferenceType: HasProperty
+      Value: 4408652
+    - Name: DisplayName
+      Id: ns=45;g=e826b1670c9f7d7a2d8a2db11c331ed5
+      Type: BaseVariableType
+      DataType: LocalizedText
+      DisplayName: {"LocaleId":"","Text":"DisplayName"}
+      ReferenceType: HasProperty
+      Value: {"LocaleId":"en-US","Text":"°C"}
+    - Name: Description
+      Id: ns=45;g=1c452c498cdf2c86abefe41bfff8287e
+      Type: BaseVariableType
+      DataType: LocalizedText
+      DisplayName: {"LocaleId":"","Text":"Description"}
+      ReferenceType: HasProperty
+      Value: {"LocaleId":"en-US","Text":"degree Celsius"}
+- Name: ns=45;levelProbe
+  Id: ns=45;g=eeceebd1da66055705167cbb63963e75
+  Type: AnalogItemType
+  DataType: Float
+  DisplayName: {"LocaleId":"en-US","Text":"LI101"}
+  Value: 10.0
+  Children:
+  - Name: EURange
+    Id: ns=45;g=c0cc780bffa008153dd35494aea77d8c
+    Type: RangeType
+    DataType: EURange
+    DisplayName: {"LocaleId":"","Text":"EURange"}
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":120.0}}
+    Children:
+    - Name: Low
+      Id: ns=45;g=1480a213c88e04648350fe080d0042e5
+      Type: BaseVariableType
+      DataType: Double
+      DisplayName: {"LocaleId":"","Text":"Low"}
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Id: ns=45;g=154661d83f90cdfe69208446ba1f2a17
+      Type: BaseVariableType
+      DataType: Double
+      DisplayName: {"LocaleId":"","Text":"High"}
+      ReferenceType: HasProperty
+      Value: 120.0
+  - Name: EngineeringUnits
+    Id: ns=45;g=fef4fb6c4635a3295a47379e4779d944
+    Type: EUInformationType
+    DataType: EUInformation
+    DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
+    Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"http://opcfoundation.org/UA/","unitId":5002322,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+    Children:
+    - Name: UnitId
+      Id: ns=45;g=dfef1ec5c03c4114028f40a2eb1b90c2
+      Type: BaseVariableType
+      DataType: Int32
+      DisplayName: {"LocaleId":"","Text":"UnitId"}
+      ReferenceType: HasProperty
+      Value: 5002322
+    - Name: DisplayName
+      Id: ns=45;g=3267323ce4b90574130ef80ba25608ea
+      Type: BaseVariableType
+      DataType: LocalizedText
+      DisplayName: {"LocaleId":"","Text":"DisplayName"}
+      ReferenceType: HasProperty
+      Value: {"LocaleId":"en-US","Text":"l"}
+    - Name: Description
+      Id: ns=45;g=533eac59c514fef8b197f0edb9dd0ceb
+      Type: BaseVariableType
+      DataType: LocalizedText
+      DisplayName: {"LocaleId":"","Text":"Description"}
+      ReferenceType: HasProperty
+      Value: {"LocaleId":"en-US","Text":"liter"}
+- Name: ns=45;motorCommandRun
+  Id: ns=45;g=ab4f9936ba2643fb0966841a2776cc76
+  Type: BaseDataVariableType
+  DataType: Boolean
+  DisplayName: {"LocaleId":"","Text":"motorCommandRun"}
+  Value: true
+- Name: ns=45;motorCommandStart
+  Id: ns=45;g=a32ac308c801ab81981dc98fa06d44c6
+  Type: BaseDataVariableType
+  DataType: Boolean
+  DisplayName: {"LocaleId":"","Text":"motorCommandStart"}
+  Value: false
+- Name: ns=45;motorCommandStop
+  Id: ns=45;g=e412b984f852435746a5b3ac7e751144
+  Type: BaseDataVariableType
+  DataType: Boolean
+  DisplayName: {"LocaleId":"","Text":"motorCommandStop"}
+  Value: false
+- Name: ns=45;motorStatusStopped
+  Id: ns=45;g=348ac5c64b345d35390e603f1985efa6
+  Type: BaseDataVariableType
+  DataType: Boolean
+  DisplayName: {"LocaleId":"","Text":"motorStatusStopped"}
+  Value: false
+- Name: ns=45;motorStatusStarting
+  Id: ns=45;g=c5bb26b41be97981619c36aaad7da841
+  Type: BaseDataVariableType
+  DataType: Boolean
+  DisplayName: {"LocaleId":"","Text":"motorStatusStarting"}
+  Value: false
+- Name: ns=45;motorStatusRunning
+  Id: ns=45;g=21624e4d2d6bcfac46c3e28411a2abd7
+  Type: BaseDataVariableType
+  DataType: Boolean
+  DisplayName: {"LocaleId":"","Text":"motorStatusRunning"}
+  Value: true
+- Name: ns=45;motorStatusStopping
+  Id: ns=45;g=bdd954a4be40bfb8ef4273c89bd5639f
+  Type: BaseDataVariableType
+  DataType: Boolean
+  DisplayName: {"LocaleId":"","Text":"motorStatusStopping"}
+  Value: false
+- Name: ns=45;motorStatusError
+  Id: ns=45;g=9119fa47824fade871e369bd74116877
+  Type: BaseDataVariableType
+  DataType: Boolean
+  DisplayName: {"LocaleId":"","Text":"motorStatusError"}
+  Value: false

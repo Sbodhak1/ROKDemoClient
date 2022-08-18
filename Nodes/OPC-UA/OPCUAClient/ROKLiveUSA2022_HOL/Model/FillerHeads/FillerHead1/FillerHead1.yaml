@@ -1,0 +1,180 @@
+Name: ns=45;FillerHead1
+Id: ns=45;g=6474f835ee386b3c12a1eecc66bbf3d8
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"FillerHead1"}
+Children:
+- Name: ns=45;bottleClampPressureSetpoint
+  Id: ns=45;g=b310c17238f5a13fe1eb463169dc9891
+  Type: BaseDataVariableType
+  DataType: Int32
+  DisplayName: {"LocaleId":"en-US","Text":"Clamp Pressure SP"}
+  Value: 0
+  Children:
+  - Name: ns=0;EngineeringUnits
+    Id: ns=45;g=ff46fa1ca4494a1f5c7c221063f0febe
+    Type: EUInformationType
+    DataType: EUInformation
+    DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
+    Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"http://opcfoundation.org/UA/","unitId":4342098,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+    Children:
+    - Name: UnitId
+      Id: ns=45;g=7c64c7a4e5aae079cc30cb9a6ab5faae
+      Type: BaseVariableType
+      DataType: Int32
+      DisplayName: {"LocaleId":"","Text":"UnitId"}
+      ReferenceType: HasProperty
+      Value: 4342098
+    - Name: DisplayName
+      Id: ns=45;g=63cfa4ae90b75ef921cc06f64708b914
+      Type: BaseVariableType
+      DataType: LocalizedText
+      DisplayName: {"LocaleId":"","Text":"DisplayName"}
+      ReferenceType: HasProperty
+      Value: {"LocaleId":"en-US","Text":"bar"}
+    - Name: Description
+      Id: ns=45;g=689f194b2eed263ddb3b1df328b12748
+      Type: BaseVariableType
+      DataType: LocalizedText
+      DisplayName: {"LocaleId":"","Text":"Description"}
+      ReferenceType: HasProperty
+      Value: {"LocaleId":"en-US","Text":"bar [unit of pressure]"}
+- Name: ns=45;bottleClampPressureActual
+  Id: ns=45;g=afadbfe1f1ccf6a59dfdbbf9586520e2
+  Type: BaseDataVariableType
+  DataType: Int32
+  DisplayName: {"LocaleId":"en-US","Text":"ACT Clamp Pressure"}
+  Value: 0
+  Children:
+  - Name: ns=0;EngineeringUnits
+    Id: ns=45;g=68357120f6485b3476fa52dd39245fec
+    Type: EUInformationType
+    DataType: EUInformation
+    DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
+    Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"http://opcfoundation.org/UA/","unitId":4342098,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+    Children:
+    - Name: UnitId
+      Id: ns=45;g=df7c3b4136615d0aa800e5be85e28670
+      Type: BaseVariableType
+      DataType: Int32
+      DisplayName: {"LocaleId":"","Text":"UnitId"}
+      ReferenceType: HasProperty
+      Value: 4342098
+    - Name: DisplayName
+      Id: ns=45;g=75e4b554863626b6d2540e9b85978b3c
+      Type: BaseVariableType
+      DataType: LocalizedText
+      DisplayName: {"LocaleId":"","Text":"DisplayName"}
+      ReferenceType: HasProperty
+      Value: {"LocaleId":"en-US","Text":"bar"}
+    - Name: Description
+      Id: ns=45;g=c53e5ec490fa182d793e0fe7a960ba09
+      Type: BaseVariableType
+      DataType: LocalizedText
+      DisplayName: {"LocaleId":"","Text":"Description"}
+      ReferenceType: HasProperty
+      Value: {"LocaleId":"en-US","Text":"bar [unit of pressure]"}
+- Name: ns=45;bottleSlowFillSetpoint
+  Id: ns=45;g=d70b72d03db54cc596d77c1fbc0172a7
+  Type: BaseDataVariableType
+  DataType: Int32
+  DisplayName: {"LocaleId":"en-US","Text":"Slow Fill SP"}
+  Value: 0
+  Children:
+  - Name: ns=0;EngineeringUnits
+    Id: ns=45;g=dd4a9e53549d3a345c8718df52738e8a
+    Type: EUInformationType
+    DataType: EUInformation
+    DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
+    Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"http://opcfoundation.org/UA/","unitId":5065812,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+    Children:
+    - Name: UnitId
+      Id: ns=45;g=e9e44a1f791571df231021ac33cb5ae6
+      Type: BaseVariableType
+      DataType: Int32
+      DisplayName: {"LocaleId":"","Text":"UnitId"}
+      ReferenceType: HasProperty
+      Value: 5065812
+    - Name: DisplayName
+      Id: ns=45;g=d3ebaea5ad197a5ae6da553f535fb2dc
+      Type: BaseVariableType
+      DataType: LocalizedText
+      DisplayName: {"LocaleId":"","Text":"DisplayName"}
+      ReferenceType: HasProperty
+      Value: {"LocaleId":"en-US","Text":"ml"}
+    - Name: Description
+      Id: ns=45;g=365be0fc2032106721051adc73469fcf
+      Type: BaseVariableType
+      DataType: LocalizedText
+      DisplayName: {"LocaleId":"","Text":"Description"}
+      ReferenceType: HasProperty
+      Value: {"LocaleId":"en-US","Text":"milliliter"}
+- Name: ns=45;bottleStopFillSetpoint
+  Id: ns=45;g=56cd1752e946db3cd24ef7bf64c728b6
+  Type: BaseDataVariableType
+  DataType: Int32
+  DisplayName: {"LocaleId":"en-US","Text":"Stop Fill SP"}
+  Value: 0
+  Children:
+  - Name: ns=0;EngineeringUnits
+    Id: ns=45;g=b0cfb2723adb7265f65942f799357d80
+    Type: EUInformationType
+    DataType: EUInformation
+    DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
+    Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"http://opcfoundation.org/UA/","unitId":5065812,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+    Children:
+    - Name: UnitId
+      Id: ns=45;g=4644159bc57db84996141111d8753a58
+      Type: BaseVariableType
+      DataType: Int32
+      DisplayName: {"LocaleId":"","Text":"UnitId"}
+      ReferenceType: HasProperty
+      Value: 5065812
+    - Name: DisplayName
+      Id: ns=45;g=624c536259ee6df42ef0ac10dabb188b
+      Type: BaseVariableType
+      DataType: LocalizedText
+      DisplayName: {"LocaleId":"","Text":"DisplayName"}
+      ReferenceType: HasProperty
+      Value: {"LocaleId":"en-US","Text":"ml"}
+    - Name: Description
+      Id: ns=45;g=7583ebde565e575348cf8d7ea96f1967
+      Type: BaseVariableType
+      DataType: LocalizedText
+      DisplayName: {"LocaleId":"","Text":"Description"}
+      ReferenceType: HasProperty
+      Value: {"LocaleId":"en-US","Text":"milliliter"}
+- Name: ns=45;bottleActualLevel
+  Id: ns=45;g=ada80f4aa7cf9c7a0ad128483f948a66
+  Type: BaseDataVariableType
+  DataType: Int32
+  DisplayName: {"LocaleId":"en-US","Text":"ACT Bottle Level"}
+  Value: 0
+  Children:
+  - Name: ns=0;EngineeringUnits
+    Id: ns=45;g=c22fd66025e9cbaf6a3bc1b09292c59e
+    Type: EUInformationType
+    DataType: EUInformation
+    DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
+    Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"http://opcfoundation.org/UA/","unitId":5065812,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+    Children:
+    - Name: UnitId
+      Id: ns=45;g=2ba7a175c5ac2bfc84f1d51e65e663d1
+      Type: BaseVariableType
+      DataType: Int32
+      DisplayName: {"LocaleId":"","Text":"UnitId"}
+      ReferenceType: HasProperty
+      Value: 5065812
+    - Name: DisplayName
+      Id: ns=45;g=dccc0a2c426ac270d143b464f2d4b258
+      Type: BaseVariableType
+      DataType: LocalizedText
+      DisplayName: {"LocaleId":"","Text":"DisplayName"}
+      ReferenceType: HasProperty
+      Value: {"LocaleId":"en-US","Text":"ml"}
+    - Name: Description
+      Id: ns=45;g=8a22c0c5e256a8693ca4cfbf3ca54ff0
+      Type: BaseVariableType
+      DataType: LocalizedText
+      DisplayName: {"LocaleId":"","Text":"Description"}
+      ReferenceType: HasProperty
+      Value: {"LocaleId":"en-US","Text":"milliliter"}
